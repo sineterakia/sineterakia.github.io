@@ -6,14 +6,14 @@
       "name": "unicore",
       "title": "Unicore",
       "styling": {
-        "primaryColor": "#29d9c2",
+        "primaryColor": "#ff5722",
         "successColor": "#7ac673",
         "infoColor": "#27aae0",
-        "warningColor": "#faaf40",
+        "warningColor": "#ff5722",
         "dangerColor": "#f97352",
-        "titleFont": "Montserrat",
-        "textFont": "Raleway",
-        "isSquareButtons": false
+        "titleFont": "Open Sans",
+        "textFont": "Open Sans",
+        "isSquareButtons": true
       }
     },
     "versionFirst": "3.9.0",
@@ -29,8 +29,8 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "",
-        "meta_descr": "",
+        "title": "sineterakia",
+        "meta_descr": "ΜΕΤΑΦΟΡΕΣ, ΜΕΤΑΚΟΜΙΣΕΙΣ, ΑΝΥΨΩΣΕΙΣ, ΡΥΜΟΥΛΚΗΣΕΙΣ, ΘΕΣΣΑΛΟΝΙΚΗ",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
@@ -99,7 +99,7 @@
             "iconsColor": "#fff",
             "parallax": false,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/10.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/hook-243684-1920-2000x1334-75.jpg",
             "bgColor": "#4c6972",
             "bgColorRadio": false,
             "bgVideo": {
@@ -147,10 +147,10 @@
             }
           },
           "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-block btn-lg btn-primary\">GET FREE TRIAL</a>",
-          "title1": "Meet the Unicore<br>Landing page toolkit",
-          "title2": "ATTRACT VISITORS",
-          "text1": "Lorem ipsum dolor sit amet consec tetur elit amet voluptas accusamus dolorum veritatis ea odio dolor emque.",
-          "title3": "MAGNET ICON",
+          "title1": "<b>Μεταφορές</b>",
+          "title2": "ΕΜΠΙΣΤΟΣΥΝΗ",
+          "text1": "Άμεσα, με επαγγελματίες μεταφορείς και τον καλύτερο εξοπλισμό. Ασφαλείς μεταφορές για να είστε σίγουροι για το αποτέλεσμα!",
+          "title3": "ΟΙΚΟΝΟΜΙΑ",
           "text2": "Lorem ipsum dolor sit amet consec tetur elit amet voluptas accusamus dolorum veritatis ea odio dolor emque."
         },
         {
@@ -235,7 +235,7 @@
             "paddingBottom": 2,
             "parallax": false,
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/10.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
             "bgColor": "#fff",
             "bgColorRadio": true,
             "bgVideo": {
