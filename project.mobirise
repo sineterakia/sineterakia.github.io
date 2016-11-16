@@ -67,7 +67,7 @@
             "fontSize": 1,
             "fontName": {},
             "fontColor": "#333",
-            "transparent": false,
+            "transparent": true,
             "sticky": true,
             "logo": true,
             "showBrand": true,
