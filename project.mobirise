@@ -1,105 +1,52 @@
 {
   "settings": {
-    "name": "sineterakia",
+    "name": "NewSite-11-05_0041",
     "currentPage": "index.html",
     "theme": {
       "name": "unicore",
       "title": "Unicore",
       "styling": {
-        "primaryColor": "#ff5722",
+        "primaryColor": "#29d9c2",
         "successColor": "#7ac673",
         "infoColor": "#27aae0",
-        "warningColor": "#ff5722",
+        "warningColor": "#faaf40",
         "dangerColor": "#f97352",
         "titleFont": "Open Sans",
         "textFont": "Open Sans",
         "isSquareButtons": true
       }
     },
-    "versionFirst": "3.9.0",
-    "uniqCompNum": 4,
+    "versionFirst": "3.8.5",
+    "uniqCompNum": 11,
     "versionPublish": "3.9.0",
-    "favicon": "",
-    "noImageResize": "",
-    "cookiesAlert": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
-    "google-analytics": "",
-    "publishType": "github"
+    "publishType": "github",
+    "publishPath": "file:///C:/Users/leo/Desktop/EXCEL/dd"
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "sineterakia",
-        "meta_descr": "ΜΕΤΑΦΟΡΕΣ, ΜΕΤΑΚΟΜΙΣΕΙΣ, ΑΝΥΨΩΣΕΙΣ, ΡΥΜΟΥΛΚΗΣΕΙΣ, ΘΕΣΣΑΛΟΝΙΚΗ",
+        "title": "",
+        "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
       },
       "components": [
         {
-          "_inherit": "dropdown-menu",
-          "_tags": [
-            "Theme"
-          ],
-          "_styles": {
-            ".hide-buttons [data-button]": {
-              "display": "none !important"
-            },
-            ".navbar-brand a": {},
-            ".nav .link, .dropdown-item": {
-              "font-size": "1em",
-              "color": "#333"
-            },
-            ".navbar, .dropdown-menu": {
-              "background": "#fff"
-            },
-            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
-              "background": "#f5f5f5"
-            },
-            ".navbar-toggler": {
-              "color": "#333"
-            }
-          },
-          "_name": "dropdown-menu1",
-          "_anchor": "dropdown-menu1-0",
-          "_params": {
-            "bgColor": "#fff",
-            "fontSize": 1,
-            "fontName": {},
-            "fontColor": "#333",
-            "transparent": true,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "hideButtons": false
-          },
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logo.png",
-              "class": "",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "https://mobirise.com"
-            }
-          },
-          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">Features</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile friendly</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Based on Bootstrap</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">Trendy blocks</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image/content slider</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact forms</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image gallery</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile menu</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google maps</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Social buttons</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google fonts</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Video background</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Host anywhere</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">Help</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary mbr-title-font\" href=\"https://mobirise.com/\">For Windows</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger mbr-title-font\" href=\"https://mobirise.com/\">For Mac</a></li>"
-        },
-        {
           "alias": "unicore/components",
           "_tags": [
             "Theme"
           ],
           "_name": "header1",
-          "_anchor": "header1-1",
+          "_anchor": "header1-5",
           "_params": {
             "paddingTop": 2,
             "paddingBottom": 2,
             "iconsColor": "#fff",
             "parallax": false,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/hook-243684-1920-2000x1334-75.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
             "bgColor": "#4c6972",
             "bgColorRadio": false,
             "bgVideo": {
@@ -113,13 +60,13 @@
             "showTitle": true,
             "showText": true,
             "showIcons": true,
-            "icon1": "fa-bolt",
-            "icon2": "fa-magnet"
+            "icon1": "fa-thunder",
+            "icon2": "fa-dollar"
           },
           "title": "APPLY NOW!",
           "form": {
             "title": "MESSAGE",
-            "action": "sineterakia@mailinator.com",
+            "action": "memaservices@gmail.com",
             "alerts": {
               "success": "Thanks for filling out form!"
             },
@@ -147,10 +94,10 @@
             }
           },
           "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-block btn-lg btn-primary\">GET FREE TRIAL</a>",
-          "title1": "<b>Μεταφορές</b>",
-          "title2": "ΕΜΠΙΣΤΟΣΥΝΗ",
-          "text1": "Άμεσα, με επαγγελματίες μεταφορείς και τον καλύτερο εξοπλισμό. Ασφαλείς μεταφορές για να είστε σίγουροι για το αποτέλεσμα!",
-          "title3": "ΟΙΚΟΝΟΜΙΑ",
+          "title1": "Μεταφορές στην ώρα τους, με ασφάλεια, και οικονομικά.",
+          "title2": "ATTRACT VISITORS",
+          "text1": "Lorem ipsum dolor sit amet consec tetur elit amet voluptas accusamus dolorum veritatis ea odio dolor emque.",
+          "title3": "MAGNET ICON",
           "text2": "Lorem ipsum dolor sit amet consec tetur elit amet voluptas accusamus dolorum veritatis ea odio dolor emque."
         },
         {
@@ -158,84 +105,16 @@
           "_tags": [
             "Theme"
           ],
-          "_name": "gallery2",
+          "_name": "features1",
+          "_anchor": "features1-6",
           "_params": {
-            "paddingTop": 0,
-            "paddingBottom": 3,
-            "images": [
-              {
-                "tags": "Awesome",
-                "caption": "Type caption here",
-                "thumb": "@PROJECT_PATH@/assets/images/1.jpg",
-                "image": "@PROJECT_PATH@/assets/images/1.jpg",
-                "active": true
-              },
-              {
-                "tags": "Awesome",
-                "caption": "Type caption here",
-                "thumb": "@PROJECT_PATH@/assets/images/2.jpg",
-                "image": "@PROJECT_PATH@/assets/images/2.jpg"
-              },
-              {
-                "tags": "Responsive",
-                "caption": "Type caption here",
-                "thumb": "@PROJECT_PATH@/assets/images/3.jpg",
-                "image": "@PROJECT_PATH@/assets/images/3.jpg"
-              },
-              {
-                "tags": "Creative",
-                "caption": "Type caption here",
-                "thumb": "@PROJECT_PATH@/assets/images/4.jpg",
-                "image": "@PROJECT_PATH@/assets/images/4.jpg"
-              },
-              {
-                "tags": "Animated",
-                "caption": "Type caption here",
-                "thumb": "@PROJECT_PATH@/assets/images/5.jpg",
-                "image": "@PROJECT_PATH@/assets/images/5.jpg"
-              },
-              {
-                "tags": "Beautiful",
-                "caption": "Type caption here",
-                "thumb": "@PROJECT_PATH@/assets/images/6.jpg",
-                "image": "@PROJECT_PATH@/assets/images/6.jpg"
-              },
-              {
-                "tags": "Animated",
-                "caption": "Type caption here",
-                "thumb": "@PROJECT_PATH@/assets/images/7.jpg",
-                "image": "@PROJECT_PATH@/assets/images/7.jpg"
-              },
-              {
-                "tags": "Animated",
-                "caption": "Type caption here",
-                "thumb": "@PROJECT_PATH@/assets/images/8.jpg",
-                "image": "@PROJECT_PATH@/assets/images/8.jpg"
-              }
-            ],
-            "showText": false,
-            "bgColor": "#fff",
-            "filter": false,
-            "fullWidth": true,
-            "noGutter": true,
-            "showBullets": true
-          },
-          "_anchor": "gallery2-2",
-          "articleLayout": false
-        },
-        {
-          "alias": "unicore/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "testimonials2",
-          "_anchor": "testimonials2-3",
-          "_params": {
+            "elements": "4",
             "paddingTop": 2,
-            "paddingBottom": 2,
+            "paddingBottom": 0,
+            "iconsColor": "@primaryColor",
             "parallax": false,
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
             "bgColor": "#fff",
             "bgColorRadio": true,
             "bgVideo": {
@@ -245,15 +124,251 @@
             "overlay": true,
             "overlayOpacity": 0.5,
             "overlayColor": "#151515",
-            "showIcon": true,
-            "showAuthorName": true
+            "showIcons": true,
+            "icon1": "fa-mobile",
+            "showTitles": true,
+            "showText": true,
+            "icon2": "fa-trophy",
+            "icon3": "fa-check-circle",
+            "icon4": "fa-lightbulb-o"
           },
-          "text1_1": "Unicore is hands down the most flexible and enjoyable HTML template. It was built with the awesome bootstrap framework and with multiple layouts and more.",
-          "text1_2": "Mark Dave - Web Design",
-          "text2_1": "Unicore is hands down the most flexible and enjoyable HTML template. It was built with the awesome bootstrap framework and with multiple layouts and more.",
-          "text2_2": "John Doe - UX Designer",
-          "text3_1": "Unicore is hands down the most flexible and enjoyable HTML template. It was built with the awesome bootstrap framework and with multiple layouts and more.",
-          "text3_2": "Jackie Doe - Front End"
+          "title1": "Responsive Design",
+          "text1": "Lorem ipsum dolor sit amet elit convallis neque convallis est non turpis nisl ac justo rutrum sollic itudin urna interdum.",
+          "title2": "CSS Awards",
+          "text2": "Lorem ipsum dolor sit amet elit convallis neque convallis est non turpis nisl ac justo rutrum sollic itudin urna interdum.",
+          "title3": "Carefully Crafted",
+          "text3": "Lorem ipsum dolor sit amet elit convallis neque convallis est non turpis nisl ac justo rutrum sollic itudin urna interdum.",
+          "title4": "Flashy Look",
+          "text4": "Lorem ipsum dolor sit amet elit convallis neque convallis est non turpis nisl ac justo rutrum sollic itudin urna interdum."
+        },
+        {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {},
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#ffffff"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#333"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#292929"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-7",
+          "_params": {
+            "bgColor": "#333",
+            "fontSize": 1,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "transparent": true,
+            "sticky": true,
+            "logo": false,
+            "showBrand": false,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            }
+          },
+          "brand": "<a class=\"text-white\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"album.html\">Overview</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">Features</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile friendly</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Based on Bootstrap</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">Trendy blocks</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image/content slider</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact forms</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image gallery</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile menu</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google maps</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Social buttons</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google fonts</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Video background</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Host anywhere</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">Help</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://forums.mobirise.com/\">Forum</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Tutorials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact us</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary mbr-title-font\" href=\"https://mobirise.com/\">Download</a></li>"
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header2",
+          "_anchor": "header2-a",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "parallax": false,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/7.jpg",
+            "bgColor": "#4c6972",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.2,
+            "overlayColor": "#000",
+            "showForm": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "APPLY NOW!",
+          "form": {
+            "title": "MESSAGE",
+            "action": "memagraphics@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "First Name",
+                "visible": true,
+                "customTitle": "First Name"
+              },
+              "lastName": {
+                "title": "Last Name",
+                "visible": true,
+                "customTitle": "Last Name"
+              },
+              "email": {
+                "title": "Email Address",
+                "visible": true,
+                "customTitle": "Email Address"
+              },
+              "phone": {
+                "title": "Phone No.",
+                "visible": true,
+                "customTitle": "Phone No."
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-block btn-lg btn-primary\">GET FREE TRIAL</a>",
+          "title1": "Perfect Design",
+          "text": "Lorem ipsum dolor sit amet adipisicing elit deleniti eaque eum fugit in<br>ipsum itaque minus fugit in ipsum itaque minus eaque.",
+          "buttons1": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-lg btn-primary\" href=\"https://mobirise.com\">PURCHASE NOW</a>"
+        }
+      ]
+    },
+    "album.html": {
+      "settings": {
+        "title": "album"
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {},
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#ffffff"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#333"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#292929"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-8",
+          "_params": {
+            "bgColor": "#333",
+            "fontSize": 1,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "transparent": true,
+            "sticky": true,
+            "logo": false,
+            "showBrand": false,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            }
+          },
+          "brand": "<a class=\"text-white\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"album.html\">Overview</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">Features</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile friendly</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Based on Bootstrap</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">Trendy blocks</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image/content slider</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact forms</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image gallery</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile menu</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google maps</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Social buttons</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google fonts</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Video background</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Host anywhere</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">Help</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://forums.mobirise.com/\">Forum</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Tutorials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact us</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary mbr-title-font\" href=\"https://mobirise.com/\">Download</a></li>"
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header2",
+          "_anchor": "header2-9",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "parallax": false,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/7.jpg",
+            "bgColor": "#4c6972",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.2,
+            "overlayColor": "#000",
+            "showForm": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "APPLY NOW!",
+          "form": {
+            "title": "MESSAGE",
+            "action": "memaservices@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "First Name",
+                "visible": true,
+                "customTitle": "First Name"
+              },
+              "lastName": {
+                "title": "Last Name",
+                "visible": true,
+                "customTitle": "Last Name"
+              },
+              "email": {
+                "title": "Email Address",
+                "visible": true,
+                "customTitle": "Email Address"
+              },
+              "phone": {
+                "title": "Phone No.",
+                "visible": true,
+                "customTitle": "Phone No."
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-block btn-lg btn-primary\">GET FREE TRIAL</a>",
+          "title1": "Perfect Design",
+          "text": "Lorem ipsum dolor sit amet adipisicing elit deleniti eaque eum fugit in<br>ipsum itaque minus fugit in ipsum itaque minus eaque.",
+          "buttons1": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-lg btn-primary\" href=\"https://mobirise.com\">PURCHASE NOW</a>"
         }
       ]
     }
