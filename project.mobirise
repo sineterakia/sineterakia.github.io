@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "NewSite-11-05_0041",
+    "name": "sineterakia",
     "currentPage": "index.html",
     "theme": {
       "name": "unicore",
@@ -18,9 +18,12 @@
     },
     "versionFirst": "3.8.5",
     "uniqCompNum": 11,
-    "versionPublish": "3.9.0",
-    "publishType": "github",
-    "publishPath": "file:///C:/Users/leo/Desktop/EXCEL/dd"
+    "versionPublish": "3.12.1",
+    "favicon": "@PROJECT_PATH@/assets/images/favicon-128x128.png",
+    "noImageResize": "",
+    "html_before": "",
+    "headbody": "",
+    "botbody": ""
   },
   "pages": {
     "index.html": {
@@ -247,10 +250,10 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-block btn-lg btn-primary\">GET FREE TRIAL</a>",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-block btn-lg btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">GET FREE TRIAL</a>",
           "title1": "Perfect Design",
           "text": "Lorem ipsum dolor sit amet adipisicing elit deleniti eaque eum fugit in<br>ipsum itaque minus fugit in ipsum itaque minus eaque.",
-          "buttons1": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-lg btn-primary\" href=\"https://mobirise.com\">PURCHASE NOW</a>"
+          "buttons1": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-cloud mbr-iconfont mbr-iconfont-btn\"></span>PURCHASE NOW</a> "
         }
       ]
     },
