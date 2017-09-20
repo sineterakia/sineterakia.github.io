@@ -26,7 +26,7 @@
     "versionPublish": "4.3.0",
     "favicon": "@PROJECT_PATH@/assets/images/favicon-32x32-32x32.png",
     "noImageResize": "",
-    "cookiesAlert": "Το site χρησιμοποιεί cookies. Διαβάστε την <a href='privacy.html'>Πολιτική Απορρήτου</a>.",
+    "cookiesAlert": "The site uses cookies. Read our  <a href='privacy.html'>Privacy Policy</a>.",
     "google-analytics": ""
   },
   "pages": {
