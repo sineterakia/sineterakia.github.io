@@ -154,6 +154,9 @@ input {
 #dropdown-menu1-0 .hide-buttons [data-button] {
   display: none !important;
 }
+#dropdown-menu1-0 .navbar-brand a {
+  font-size: 18px;
+}
 #dropdown-menu1-0 .nav .link,
 #dropdown-menu1-0 .dropdown-item {
   font-size: 1em;
