@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "sineterakia",
-    "currentPage": "index2.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "unicore",
       "title": "Unicore",
@@ -29,7 +29,7 @@
     "google-analytics": ""
   },
   "pages": {
-    "index2.html": {
+    "index.html": {
       "settings": {
         "main": true,
         "title": "sineterakia",
