@@ -135,7 +135,12 @@
           "text": "<b>Είμαστε στη διάθεσή σας για ότι μας χρειαστείτε. Τηλεφωνήστε μας ώρες γραφείου, ή επικοινωνήστε μέσω e-mail και Facebook Messenger.</b>",
           "buttons": "<a data-app-btn=\"true\" href=\"#\" class=\"btn mbr-title-font btn-lg btn-info\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-touch-swipe mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 23px;\"></span>&nbsp;FACEBOOK MESSENGER</a>",
           "_name": "header27",
-          "_anchor": "header27-7"
+          "_anchor": "header27-7",
+          "_styles": {
+            ".btn": {
+              "font-size": "16px"
+            }
+          }
         },
         {
           "_params": {
