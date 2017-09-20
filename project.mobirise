@@ -48,7 +48,9 @@
             ".hide-buttons [data-button]": {
               "display": "none !important"
             },
-            ".navbar-brand a": {},
+            ".navbar-brand a": {
+              "font-size": "23px"
+            },
             ".nav .link, .dropdown-item": {
               "font-size": "1em",
               "color": "#000000"
@@ -87,7 +89,7 @@
             }
           },
           "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">ΤΑ ΣΥΝΕΤΑΙΡΑΚΙΑ</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">αρχικη</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">ΠΟΙΟΙ ΕΙΜΑΣΤΕ</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">multiμεdia</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">ΦΩΤΟΓΡΑΦΙΕΣ</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">ΒΙΝΤΕΟ</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-primary\" href=\"tel:+306944715900\">ΚΛΙΚ ΓΙΑ ΤΗΛΕΦΩΝΟ ΕΔΩ</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">ΑΡΧΙΚΗ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">ΠΟΙΟΙ ΕΙΜΑΣΤΕ</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">GALLERY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">ΦΩΤΟΓΡΑΦΙΕΣ</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">ΒΙΝΤΕΟ</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-info\" href=\"tel:+306944715900\">FACEBOOK MESSENGER</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-primary\" href=\"tel:+306944715900\">ΚΛΙΚ ΓΙΑ ΤΗΛΕΦΩΝΟ ΕΔΩ</a></li>"
         },
         {
           "_inherit": "header7",
