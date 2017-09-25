@@ -22,7 +22,7 @@
       ]
     },
     "versionFirst": "3.9.0",
-    "uniqCompNum": 13,
+    "uniqCompNum": 34,
     "versionPublish": "4.3.0",
     "favicon": "@PROJECT_PATH@/assets/images/favicon-32x32-32x32.png",
     "noImageResize": "",
@@ -93,7 +93,7 @@
             }
           },
           "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">ΤΑ ΣΥΝΕΤΑΙΡΑΚΙΑ</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">ΑΡΧΙΚΗ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">ΠΟΙΟΙ ΕΙΜΑΣΤΕ</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">GALLERY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">ΦΩΤΟΓΡΑΦΙΕΣ</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">ΒΙΝΤΕΟ</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-info\" href=\"tel:+306944715900\"><span class=\"mbri-touch-swipe mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 24px;\"></span>&nbsp;FACEBOOK MESSENGER</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-primary\" href=\"tel:+306944715900\"><span class=\"mbri-touch mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 21px;\"></span>&nbsp;6944 715 900</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">ΑΡΧΙΚΗ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">ΠΟΙΟΙ ΕΙΜΑΣΤΕ</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">GALLERY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\">ΦΩΤΟΓΡΑΦΙΕΣ</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">ΒΙΝΤΕΟ</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-info\" href=\"tel:+306944715900\"><span class=\"mbri-touch-swipe mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 24px;\"></span>&nbsp;FACEBOOK MESSENGER</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-primary\" href=\"tel:+306944715900\"><span class=\"mbri-touch mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 21px;\"></span>&nbsp;6944 715 900</a></li>"
         },
         {
           "_inherit": "header7",
@@ -166,9 +166,9 @@
             }
           },
           "title1": "ΤΑ ΣΥΝΕΤΑΙΡΑΚΙΑ",
-          "text1": "TERMS OF SERVICE<br>PRIVACY POLICY<br>",
+          "text1": "<a href=\"page4.html\">TERMS OF SERVICE</a><br><a href=\"page5.html\">PRIVACY POLICY</a><br>",
           "icons": " <a class=\"fa\" data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><i class=\"fa fa-facebook\"></i></a>    <a class=\"fa\" data-app-btn=\"true\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\"><i class=\"fa fa-instagram\"></i></a> ",
-          "text2": "<b><br></b><b>Site Design by:&nbsp;<a href=\"https://leanshot.xyz\" target=\"_blank\">leanshot.xyz</a></b><br><b>Messenger Bot by: botby.design<br></b><br><b>sineterakia.com 2017, All Rights Reserved<a href=\"https://leanshot.xyz\" target=\"_blank\"><br></a></b><br>",
+          "text2": "<b><br></b><b>Site Design by:&nbsp;<a href=\"https://leanshot.xyz\" target=\"_blank\">leanshot.xyz</a></b><b><br></b><br><b>sineterakia.com 2017, All Rights Reserved<a href=\"https://leanshot.xyz\" target=\"_blank\"><br></a></b><br>",
           "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-primary btn-ico\">Send Message<i class=\"fa fa-paper-plane-o\"></i></a>",
           "title": "<b>ΤΟ ΜΗΝΥΜΑ ΣΑΣ</b>",
           "form": {
@@ -204,6 +204,891 @@
               "font-size": "12px"
             }
           }
+        }
+      ]
+    },
+    "page1.html": {
+      "settings": {
+        "title": "ABOUT US",
+        "meta_descr": "ΜΕΤΑΦΟΡΕΣ, ΜΕΤΑΚΟΜΙΣΕΙΣ, ΑΝΥΨΩΣΕΙΣ, ΡΥΜΟΥΛΚΗΣΕΙΣ, ΘΕΣΣΑΛΟΝΙΚΗ",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "order": 5
+      },
+      "components": [
+        {
+          "_inherit": "dropdown-menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {
+              "font-size": "18px"
+            },
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#000000"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#f5f5f5"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            },
+            ".btn": {
+              "font-size": "14px"
+            }
+          },
+          "_name": "dropdown-menu1",
+          "_params": {
+            "logo": false,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "transparent": false,
+            "bgColor": "#ffffff",
+            "fontSize": 1,
+            "fontName": {},
+            "fontColor": "#000000"
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            }
+          },
+          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">ΤΑ ΣΥΝΕΤΑΙΡΑΚΙΑ</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">ΑΡΧΙΚΗ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">ΠΟΙΟΙ ΕΙΜΑΣΤΕ</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">GALLERY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\">ΦΩΤΟΓΡΑΦΙΕΣ</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">ΒΙΝΤΕΟ</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-info\" href=\"tel:+306944715900\"><span class=\"mbri-touch-swipe mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 24px;\"></span>&nbsp;FACEBOOK MESSENGER</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-primary\" href=\"tel:+306944715900\"><span class=\"mbri-touch mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 21px;\"></span>&nbsp;6944 715 900</a></li>",
+          "_anchor": "dropdown-menu1-j"
+        },
+        {
+          "_inherit": "header7",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/62-2000x1500.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#8c230e",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": "0.4",
+            "showIcons": false,
+            "iconsColor": "#fff",
+            "icon1": "fa-database",
+            "icon2": "fa-lightbulb-o",
+            "icon3": "fa-money",
+            "icon4": "fa-clock-o",
+            "showTitles": false
+          },
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "title": "<b>Μεταφορές Με Ασφάλεια, Στην Ώρα τους, και Οικονομικά.</b>",
+          "title1": "Multi Layouts",
+          "title2": "Creative Idea",
+          "title3": "Target Buyers",
+          "title4": "Reach Top",
+          "text": "<b>Είμαστε στη διάθεσή σας για ότι μας χρειαστείτε. Τηλεφωνήστε μας ώρες γραφείου, ή επικοινωνήστε μέσω e-mail και Facebook Messenger.</b>",
+          "buttons": "<a data-app-btn=\"true\" href=\"#\" class=\"btn mbr-title-font btn-lg btn-info\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-touch-swipe mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 23px;\"></span>&nbsp;FACEBOOK MESSENGER</a>",
+          "_name": "header27",
+          "_styles": {
+            ".btn": {
+              "font-size": "16px"
+            }
+          },
+          "_anchor": "header27-k"
+        },
+        {
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#333",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5,
+            "googleMap": {
+              "address": "ΔΕΡΒΕΝΑΚΙΩΝ 33,\nΘεσσαλονίκη",
+              "placeId": "ChIJ3X9Gxs05qBQR92hDdL25u00",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          },
+          "title1": "ΤΑ ΣΥΝΕΤΑΙΡΑΚΙΑ",
+          "text1": "<a href=\"page4.html\">TERMS OF SERVICE</a><br><a href=\"page5.html\">PRIVACY POLICY</a><br>",
+          "icons": " <a class=\"fa\" data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><i class=\"fa fa-facebook\"></i></a>    <a class=\"fa\" data-app-btn=\"true\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\"><i class=\"fa fa-instagram\"></i></a> ",
+          "text2": "<b><br></b><b>Site Design by:&nbsp;<a href=\"https://leanshot.xyz\" target=\"_blank\">leanshot.xyz</a></b><b><br></b><br><b>sineterakia.com 2017, All Rights Reserved<a href=\"https://leanshot.xyz\" target=\"_blank\"><br></a></b><br>",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-primary btn-ico\">Send Message<i class=\"fa fa-paper-plane-o\"></i></a>",
+          "title": "<b>ΤΟ ΜΗΝΥΜΑ ΣΑΣ</b>",
+          "form": {
+            "action": "sineterakia@mailinator.com",
+            "alerts": {
+              "success": "Επιτυχία! Ευχαριστούμε για το ενδιαφέρον σας!"
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Το Όνομά σας"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Το Email σας"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Γράψτε εδώ το μήνυμά σας"
+              }
+            }
+          },
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts4",
+          "_styles": {
+            "H1": {
+              "font-size": "12px"
+            }
+          },
+          "_anchor": "contacts4-l"
+        }
+      ]
+    },
+    "page2.html": {
+      "settings": {
+        "title": "PHOTOS",
+        "meta_descr": "ΜΕΤΑΦΟΡΕΣ, ΜΕΤΑΚΟΜΙΣΕΙΣ, ΑΝΥΨΩΣΕΙΣ, ΡΥΜΟΥΛΚΗΣΕΙΣ, ΘΕΣΣΑΛΟΝΙΚΗ",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "order": 4
+      },
+      "components": [
+        {
+          "_inherit": "dropdown-menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {
+              "font-size": "18px"
+            },
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#000000"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#f5f5f5"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            },
+            ".btn": {
+              "font-size": "14px"
+            }
+          },
+          "_name": "dropdown-menu1",
+          "_params": {
+            "logo": false,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "transparent": false,
+            "bgColor": "#ffffff",
+            "fontSize": 1,
+            "fontName": {},
+            "fontColor": "#000000"
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            }
+          },
+          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">ΤΑ ΣΥΝΕΤΑΙΡΑΚΙΑ</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">ΑΡΧΙΚΗ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">ΠΟΙΟΙ ΕΙΜΑΣΤΕ</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">GALLERY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\">ΦΩΤΟΓΡΑΦΙΕΣ</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">ΒΙΝΤΕΟ</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-info\" href=\"tel:+306944715900\"><span class=\"mbri-touch-swipe mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 24px;\"></span>&nbsp;FACEBOOK MESSENGER</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-primary\" href=\"tel:+306944715900\"><span class=\"mbri-touch mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 21px;\"></span>&nbsp;6944 715 900</a></li>",
+          "_anchor": "dropdown-menu1-m"
+        },
+        {
+          "_inherit": "header7",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/62-2000x1500.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#8c230e",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": "0.4",
+            "showIcons": false,
+            "iconsColor": "#fff",
+            "icon1": "fa-database",
+            "icon2": "fa-lightbulb-o",
+            "icon3": "fa-money",
+            "icon4": "fa-clock-o",
+            "showTitles": false
+          },
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "title": "<b>Μεταφορές Με Ασφάλεια, Στην Ώρα τους, και Οικονομικά.</b>",
+          "title1": "Multi Layouts",
+          "title2": "Creative Idea",
+          "title3": "Target Buyers",
+          "title4": "Reach Top",
+          "text": "<b>Είμαστε στη διάθεσή σας για ότι μας χρειαστείτε. Τηλεφωνήστε μας ώρες γραφείου, ή επικοινωνήστε μέσω e-mail και Facebook Messenger.</b>",
+          "buttons": "<a data-app-btn=\"true\" href=\"#\" class=\"btn mbr-title-font btn-lg btn-info\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-touch-swipe mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 23px;\"></span>&nbsp;FACEBOOK MESSENGER</a>",
+          "_name": "header27",
+          "_styles": {
+            ".btn": {
+              "font-size": "16px"
+            }
+          },
+          "_anchor": "header27-n"
+        },
+        {
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#333",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5,
+            "googleMap": {
+              "address": "ΔΕΡΒΕΝΑΚΙΩΝ 33,\nΘεσσαλονίκη",
+              "placeId": "ChIJ3X9Gxs05qBQR92hDdL25u00",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          },
+          "title1": "ΤΑ ΣΥΝΕΤΑΙΡΑΚΙΑ",
+          "text1": "<a href=\"page4.html\">TERMS OF SERVICE</a><br><a href=\"page5.html\">PRIVACY POLICY</a><br>",
+          "icons": " <a class=\"fa\" data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><i class=\"fa fa-facebook\"></i></a>    <a class=\"fa\" data-app-btn=\"true\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\"><i class=\"fa fa-instagram\"></i></a> ",
+          "text2": "<b><br></b><b>Site Design by:&nbsp;<a href=\"https://leanshot.xyz\" target=\"_blank\">leanshot.xyz</a></b><b><br></b><br><b>sineterakia.com 2017, All Rights Reserved<a href=\"https://leanshot.xyz\" target=\"_blank\"><br></a></b><br>",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-primary btn-ico\">Send Message<i class=\"fa fa-paper-plane-o\"></i></a>",
+          "title": "<b>ΤΟ ΜΗΝΥΜΑ ΣΑΣ</b>",
+          "form": {
+            "action": "sineterakia@mailinator.com",
+            "alerts": {
+              "success": "Επιτυχία! Ευχαριστούμε για το ενδιαφέρον σας!"
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Το Όνομά σας"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Το Email σας"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Γράψτε εδώ το μήνυμά σας"
+              }
+            }
+          },
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts4",
+          "_styles": {
+            "H1": {
+              "font-size": "12px"
+            }
+          },
+          "_anchor": "contacts4-o"
+        }
+      ]
+    },
+    "page3.html": {
+      "settings": {
+        "title": "VIDEOS",
+        "meta_descr": "ΜΕΤΑΦΟΡΕΣ, ΜΕΤΑΚΟΜΙΣΕΙΣ, ΑΝΥΨΩΣΕΙΣ, ΡΥΜΟΥΛΚΗΣΕΙΣ, ΘΕΣΣΑΛΟΝΙΚΗ",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "order": 3
+      },
+      "components": [
+        {
+          "_inherit": "dropdown-menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {
+              "font-size": "18px"
+            },
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#000000"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#f5f5f5"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            },
+            ".btn": {
+              "font-size": "14px"
+            }
+          },
+          "_name": "dropdown-menu1",
+          "_params": {
+            "logo": false,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "transparent": false,
+            "bgColor": "#ffffff",
+            "fontSize": 1,
+            "fontName": {},
+            "fontColor": "#000000"
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            }
+          },
+          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">ΤΑ ΣΥΝΕΤΑΙΡΑΚΙΑ</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">ΑΡΧΙΚΗ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">ΠΟΙΟΙ ΕΙΜΑΣΤΕ</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">GALLERY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\">ΦΩΤΟΓΡΑΦΙΕΣ</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">ΒΙΝΤΕΟ</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-info\" href=\"tel:+306944715900\"><span class=\"mbri-touch-swipe mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 24px;\"></span>&nbsp;FACEBOOK MESSENGER</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-primary\" href=\"tel:+306944715900\"><span class=\"mbri-touch mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 21px;\"></span>&nbsp;6944 715 900</a></li>",
+          "_anchor": "dropdown-menu1-p"
+        },
+        {
+          "_inherit": "header7",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/62-2000x1500.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#8c230e",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": "0.4",
+            "showIcons": false,
+            "iconsColor": "#fff",
+            "icon1": "fa-database",
+            "icon2": "fa-lightbulb-o",
+            "icon3": "fa-money",
+            "icon4": "fa-clock-o",
+            "showTitles": false
+          },
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "title": "<b>Μεταφορές Με Ασφάλεια, Στην Ώρα τους, και Οικονομικά.</b>",
+          "title1": "Multi Layouts",
+          "title2": "Creative Idea",
+          "title3": "Target Buyers",
+          "title4": "Reach Top",
+          "text": "<b>Είμαστε στη διάθεσή σας για ότι μας χρειαστείτε. Τηλεφωνήστε μας ώρες γραφείου, ή επικοινωνήστε μέσω e-mail και Facebook Messenger.</b>",
+          "buttons": "<a data-app-btn=\"true\" href=\"#\" class=\"btn mbr-title-font btn-lg btn-info\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-touch-swipe mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 23px;\"></span>&nbsp;FACEBOOK MESSENGER</a>",
+          "_name": "header27",
+          "_styles": {
+            ".btn": {
+              "font-size": "16px"
+            }
+          },
+          "_anchor": "header27-q"
+        },
+        {
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#333",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5,
+            "googleMap": {
+              "address": "ΔΕΡΒΕΝΑΚΙΩΝ 33,\nΘεσσαλονίκη",
+              "placeId": "ChIJ3X9Gxs05qBQR92hDdL25u00",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          },
+          "title1": "ΤΑ ΣΥΝΕΤΑΙΡΑΚΙΑ",
+          "text1": "<a href=\"page4.html\">TERMS OF SERVICE</a><br><a href=\"page5.html\">PRIVACY POLICY</a><br>",
+          "icons": " <a class=\"fa\" data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><i class=\"fa fa-facebook\"></i></a>    <a class=\"fa\" data-app-btn=\"true\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\"><i class=\"fa fa-instagram\"></i></a> ",
+          "text2": "<b><br></b><b>Site Design by:&nbsp;<a href=\"https://leanshot.xyz\" target=\"_blank\">leanshot.xyz</a></b><b><br></b><br><b>sineterakia.com 2017, All Rights Reserved<a href=\"https://leanshot.xyz\" target=\"_blank\"><br></a></b><br>",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-primary btn-ico\">Send Message<i class=\"fa fa-paper-plane-o\"></i></a>",
+          "title": "<b>ΤΟ ΜΗΝΥΜΑ ΣΑΣ</b>",
+          "form": {
+            "action": "sineterakia@mailinator.com",
+            "alerts": {
+              "success": "Επιτυχία! Ευχαριστούμε για το ενδιαφέρον σας!"
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Το Όνομά σας"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Το Email σας"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Γράψτε εδώ το μήνυμά σας"
+              }
+            }
+          },
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts4",
+          "_styles": {
+            "H1": {
+              "font-size": "12px"
+            }
+          },
+          "_anchor": "contacts4-r"
+        }
+      ]
+    },
+    "page4.html": {
+      "settings": {
+        "title": "TOS",
+        "meta_descr": "ΜΕΤΑΦΟΡΕΣ, ΜΕΤΑΚΟΜΙΣΕΙΣ, ΑΝΥΨΩΣΕΙΣ, ΡΥΜΟΥΛΚΗΣΕΙΣ, ΘΕΣΣΑΛΟΝΙΚΗ",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "order": 2
+      },
+      "components": [
+        {
+          "_inherit": "dropdown-menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {
+              "font-size": "18px"
+            },
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#000000"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#f5f5f5"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            },
+            ".btn": {
+              "font-size": "14px"
+            }
+          },
+          "_name": "dropdown-menu1",
+          "_params": {
+            "logo": false,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "transparent": false,
+            "bgColor": "#ffffff",
+            "fontSize": 1,
+            "fontName": {},
+            "fontColor": "#000000"
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            }
+          },
+          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">ΤΑ ΣΥΝΕΤΑΙΡΑΚΙΑ</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">ΑΡΧΙΚΗ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">ΠΟΙΟΙ ΕΙΜΑΣΤΕ</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">GALLERY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\">ΦΩΤΟΓΡΑΦΙΕΣ</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">ΒΙΝΤΕΟ</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-info\" href=\"tel:+306944715900\"><span class=\"mbri-touch-swipe mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 24px;\"></span>&nbsp;FACEBOOK MESSENGER</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-primary\" href=\"tel:+306944715900\"><span class=\"mbri-touch mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 21px;\"></span>&nbsp;6944 715 900</a></li>",
+          "_anchor": "dropdown-menu1-s"
+        },
+        {
+          "_inherit": "header7",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/62-2000x1500.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#8c230e",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": "0.4",
+            "showIcons": false,
+            "iconsColor": "#fff",
+            "icon1": "fa-database",
+            "icon2": "fa-lightbulb-o",
+            "icon3": "fa-money",
+            "icon4": "fa-clock-o",
+            "showTitles": false
+          },
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "title": "<b>Μεταφορές Με Ασφάλεια, Στην Ώρα τους, και Οικονομικά.</b>",
+          "title1": "Multi Layouts",
+          "title2": "Creative Idea",
+          "title3": "Target Buyers",
+          "title4": "Reach Top",
+          "text": "<b>Είμαστε στη διάθεσή σας για ότι μας χρειαστείτε. Τηλεφωνήστε μας ώρες γραφείου, ή επικοινωνήστε μέσω e-mail και Facebook Messenger.</b>",
+          "buttons": "<a data-app-btn=\"true\" href=\"#\" class=\"btn mbr-title-font btn-lg btn-info\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-touch-swipe mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 23px;\"></span>&nbsp;FACEBOOK MESSENGER</a>",
+          "_name": "header27",
+          "_styles": {
+            ".btn": {
+              "font-size": "16px"
+            }
+          },
+          "_anchor": "header27-t"
+        },
+        {
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#333",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5,
+            "googleMap": {
+              "address": "ΔΕΡΒΕΝΑΚΙΩΝ 33,\nΘεσσαλονίκη",
+              "placeId": "ChIJ3X9Gxs05qBQR92hDdL25u00",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          },
+          "title1": "ΤΑ ΣΥΝΕΤΑΙΡΑΚΙΑ",
+          "text1": "<a href=\"page4.html\">TERMS OF SERVICE</a><br><a href=\"page5.html\">PRIVACY POLICY</a><br>",
+          "icons": " <a class=\"fa\" data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><i class=\"fa fa-facebook\"></i></a>    <a class=\"fa\" data-app-btn=\"true\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\"><i class=\"fa fa-instagram\"></i></a> ",
+          "text2": "<b><br></b><b>Site Design by:&nbsp;<a href=\"https://leanshot.xyz\" target=\"_blank\">leanshot.xyz</a></b><b><br></b><br><b>sineterakia.com 2017, All Rights Reserved<a href=\"https://leanshot.xyz\" target=\"_blank\"><br></a></b><br>",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-primary btn-ico\">Send Message<i class=\"fa fa-paper-plane-o\"></i></a>",
+          "title": "<b>ΤΟ ΜΗΝΥΜΑ ΣΑΣ</b>",
+          "form": {
+            "action": "sineterakia@mailinator.com",
+            "alerts": {
+              "success": "Επιτυχία! Ευχαριστούμε για το ενδιαφέρον σας!"
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Το Όνομά σας"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Το Email σας"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Γράψτε εδώ το μήνυμά σας"
+              }
+            }
+          },
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts4",
+          "_styles": {
+            "H1": {
+              "font-size": "12px"
+            }
+          },
+          "_anchor": "contacts4-u"
+        }
+      ]
+    },
+    "page5.html": {
+      "settings": {
+        "title": "PRIVACY",
+        "meta_descr": "ΜΕΤΑΦΟΡΕΣ, ΜΕΤΑΚΟΜΙΣΕΙΣ, ΑΝΥΨΩΣΕΙΣ, ΡΥΜΟΥΛΚΗΣΕΙΣ, ΘΕΣΣΑΛΟΝΙΚΗ",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "order": 1
+      },
+      "components": [
+        {
+          "_inherit": "dropdown-menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {
+              "font-size": "18px"
+            },
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#000000"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#f5f5f5"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            },
+            ".btn": {
+              "font-size": "14px"
+            }
+          },
+          "_name": "dropdown-menu1",
+          "_params": {
+            "logo": false,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "transparent": false,
+            "bgColor": "#ffffff",
+            "fontSize": 1,
+            "fontName": {},
+            "fontColor": "#000000"
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            }
+          },
+          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">ΤΑ ΣΥΝΕΤΑΙΡΑΚΙΑ</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">ΑΡΧΙΚΗ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">ΠΟΙΟΙ ΕΙΜΑΣΤΕ</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">GALLERY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\">ΦΩΤΟΓΡΑΦΙΕΣ</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">ΒΙΝΤΕΟ</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-info\" href=\"tel:+306944715900\"><span class=\"mbri-touch-swipe mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 24px;\"></span>&nbsp;FACEBOOK MESSENGER</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-primary\" href=\"tel:+306944715900\"><span class=\"mbri-touch mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 21px;\"></span>&nbsp;6944 715 900</a></li>",
+          "_anchor": "dropdown-menu1-v"
+        },
+        {
+          "_inherit": "header7",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/62-2000x1500.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#8c230e",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": "0.4",
+            "showIcons": false,
+            "iconsColor": "#fff",
+            "icon1": "fa-database",
+            "icon2": "fa-lightbulb-o",
+            "icon3": "fa-money",
+            "icon4": "fa-clock-o",
+            "showTitles": false
+          },
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "title": "<b>Μεταφορές Με Ασφάλεια, Στην Ώρα τους, και Οικονομικά.</b>",
+          "title1": "Multi Layouts",
+          "title2": "Creative Idea",
+          "title3": "Target Buyers",
+          "title4": "Reach Top",
+          "text": "<b>Είμαστε στη διάθεσή σας για ότι μας χρειαστείτε. Τηλεφωνήστε μας ώρες γραφείου, ή επικοινωνήστε μέσω e-mail και Facebook Messenger.</b>",
+          "buttons": "<a data-app-btn=\"true\" href=\"#\" class=\"btn mbr-title-font btn-lg btn-info\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-touch-swipe mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 23px;\"></span>&nbsp;FACEBOOK MESSENGER</a>",
+          "_name": "header27",
+          "_styles": {
+            ".btn": {
+              "font-size": "16px"
+            }
+          },
+          "_anchor": "header27-w"
+        },
+        {
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#333",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5,
+            "googleMap": {
+              "address": "ΔΕΡΒΕΝΑΚΙΩΝ 33,\nΘεσσαλονίκη",
+              "placeId": "ChIJ3X9Gxs05qBQR92hDdL25u00",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          },
+          "title1": "ΤΑ ΣΥΝΕΤΑΙΡΑΚΙΑ",
+          "text1": "<a href=\"page4.html\">TERMS OF SERVICE</a><br><a href=\"page5.html\">PRIVACY POLICY</a><br>",
+          "icons": " <a class=\"fa\" data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><i class=\"fa fa-facebook\"></i></a>    <a class=\"fa\" data-app-btn=\"true\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\"><i class=\"fa fa-instagram\"></i></a> ",
+          "text2": "<b><br></b><b>Site Design by:&nbsp;<a href=\"https://leanshot.xyz\" target=\"_blank\">leanshot.xyz</a></b><b><br></b><br><b>sineterakia.com 2017, All Rights Reserved<a href=\"https://leanshot.xyz\" target=\"_blank\"><br></a></b><br>",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-primary btn-ico\">Send Message<i class=\"fa fa-paper-plane-o\"></i></a>",
+          "title": "<b>ΤΟ ΜΗΝΥΜΑ ΣΑΣ</b>",
+          "form": {
+            "action": "sineterakia@mailinator.com",
+            "alerts": {
+              "success": "Επιτυχία! Ευχαριστούμε για το ενδιαφέρον σας!"
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Το Όνομά σας"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Το Email σας"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Γράψτε εδώ το μήνυμά σας"
+              }
+            }
+          },
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts4",
+          "_styles": {
+            "H1": {
+              "font-size": "12px"
+            }
+          },
+          "_anchor": "contacts4-x"
         }
       ]
     }
