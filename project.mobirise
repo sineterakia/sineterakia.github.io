@@ -23,7 +23,7 @@
       ]
     },
     "versionFirst": "3.9.0",
-    "uniqCompNum": 58,
+    "uniqCompNum": 63,
     "versionPublish": "3.12.1",
     "favicon": "@PROJECT_PATH@/assets/images/favicon-32x32-32x32.png",
     "noImageResize": "",
@@ -94,7 +94,7 @@
             }
           },
           "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">ΤΑ ΣΥΝΕΤΑΙΡΑΚΙΑ</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">ΑΡΧΙΚΗ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">ΠΟΙΟΙ ΕΙΜΑΣΤΕ</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">GALLERY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PHOTOS.html\">ΦΩΤΟΓΡΑΦΙΕΣ</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VIDEOS.html\">ΒΙΝΤΕΟ</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-info\" href=\"https://m.me\" target=\"_blank\"><span class=\"mbri-touch-swipe mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 24px;\"></span>&nbsp;FACEBOOK MESSENGER</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-primary\" href=\"tel:+306944715900\"><span class=\"mbri-touch mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 21px;\"></span>&nbsp;6944 715 900</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">ΑΡΧΙΚΗ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ABOUT US.html\">ΠΟΙΟΙ ΕΙΜΑΣΤΕ</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">GALLERY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PHOTOS.html\">ΦΩΤΟΓΡΑΦΙΕΣ</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VIDEOS.html\">ΒΙΝΤΕΟ</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-info\" href=\"m.me/183576741733097\" target=\"_blank\"><span class=\"mbri-touch-swipe mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 24px;\"></span>&nbsp;FACEBOOK MESSENGER</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-primary\" href=\"tel:+306944715900\"><span class=\"mbri-touch mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 21px;\"></span>&nbsp;6944 715 900</a></li>"
         },
         {
           "_inherit": "header7",
@@ -137,7 +137,7 @@
           },
           "title": "<b>Μεταφορές Με Ασφάλεια, Στην Ώρα τους, και Οικονομικά.</b>",
           "text": "<b>Είμαστε στη διάθεσή σας για ότι μας χρειαστείτε. Τηλεφωνήστε μας ώρες γραφείου, ή επικοινωνήστε μέσω e-mail και Facebook Messenger.</b>",
-          "buttons": "<a data-app-btn=\"true\" href=\"#\" class=\"btn mbr-title-font btn-lg btn-info\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-touch-swipe mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 23px;\"></span>&nbsp;FACEBOOK MESSENGER</a>",
+          "buttons": "<a data-app-btn=\"true\" href=\"m.me/183576741733097\" class=\"btn mbr-title-font btn-lg btn-info\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-touch-swipe mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 23px;\"></span>&nbsp;FACEBOOK MESSENGER</a>",
           "title1": "Multi Layouts",
           "title2": "Creative Idea",
           "title3": "Target Buyers",
@@ -152,7 +152,7 @@
           "_anchor": "header7-1k",
           "_params": {
             "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "iconsColor": "#fff",
             "parallax": false,
             "bgImageRadio": false,
@@ -242,7 +242,7 @@
           },
           "title": "<b>ΦΩΤΟΓΡΑΦΙΚΟ ΥΛΙΚΟ</b>",
           "text": "Δείτε φωτογραφικό υλικό από παλαιότερες και νεότερες εργασίες μας.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\" href=\"PHOTOS.html\">ΠΑΜΕ ΣΤΗ ΣΕΛΙΔΑ</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\" href=\"PHOTOS.html\">ΠΑΜΕ ΣΤΗ ΣΕΛΙΔΑ</a> ",
           "_styles": {
             "P": {
               "font-size": "20px"
@@ -339,7 +339,7 @@
             }
           },
           "title1": "ΤΑ ΣΥΝΕΤΑΙΡΑΚΙΑ",
-          "text1": "<a href=\"page4.html\">TERMS OF SERVICE</a><br><a href=\"page5.html\">PRIVACY POLICY</a><br>",
+          "text1": "<a href=\"TOS.html\">TERMS OF SERVICE</a><br><a href=\"PRIVACY.html\">PRIVACY POLICY</a><br>",
           "icons": " <a class=\"fa\" data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://el-gr.facebook.com/pg/%CE%A3%CE%A5%CE%9D%CE%95%CE%A4%CE%91%CE%99%CE%A1%CE%91%CE%9A%CE%99%CE%91-183576741733097/about/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrLinkColor\"><i class=\"fa fa-facebook\"></i></a>     ",
           "text2": "<b><br></b><b>Site Design by:&nbsp;<a href=\"https://leanshot.xyz\" target=\"_blank\">leanshot.xyz</a></b><b><br></b><br><b>sineterakia.com 2017, All Rights Reserved<a href=\"https://leanshot.xyz\" target=\"_blank\"><br></a></b><br>",
           "title": "<b>ΤΟ ΜΗΝΥΜΑ ΣΑΣ</b>",
@@ -490,7 +490,7 @@
             }
           },
           "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">ΤΑ ΣΥΝΕΤΑΙΡΑΚΙΑ</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">ΑΡΧΙΚΗ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">ΠΟΙΟΙ ΕΙΜΑΣΤΕ</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">GALLERY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PHOTOS.html\">ΦΩΤΟΓΡΑΦΙΕΣ</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VIDEOS.html\">ΒΙΝΤΕΟ</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-info\" href=\"https://m.me\" target=\"_blank\"><span class=\"mbri-touch-swipe mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 24px;\"></span>&nbsp;FACEBOOK MESSENGER</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-primary\" href=\"tel:+306944715900\"><span class=\"mbri-touch mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 21px;\"></span>&nbsp;6944 715 900</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">ΑΡΧΙΚΗ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ABOUT US.html\">ΠΟΙΟΙ ΕΙΜΑΣΤΕ</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">GALLERY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PHOTOS.html\">ΦΩΤΟΓΡΑΦΙΕΣ</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VIDEOS.html\">ΒΙΝΤΕΟ</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-info\" href=\"m.me/183576741733097\" target=\"_blank\"><span class=\"mbri-touch-swipe mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 24px;\"></span>&nbsp;FACEBOOK MESSENGER</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-primary\" href=\"tel:+306944715900\"><span class=\"mbri-touch mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 21px;\"></span>&nbsp;6944 715 900</a></li>"
         },
         {
           "alias": "unicore/components",
@@ -527,7 +527,7 @@
             }
           },
           "title1": "ΤΑ ΣΥΝΕΤΑΙΡΑΚΙΑ",
-          "text1": "<a href=\"page4.html\">TERMS OF SERVICE</a><br><a href=\"page5.html\">PRIVACY POLICY</a><br>",
+          "text1": "<a href=\"TOS.html\">TERMS OF SERVICE</a><br><a href=\"PRIVACY.html\">PRIVACY POLICY</a><br>",
           "icons": " <a class=\"fa\" data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://el-gr.facebook.com/pg/%CE%A3%CE%A5%CE%9D%CE%95%CE%A4%CE%91%CE%99%CE%A1%CE%91%CE%9A%CE%99%CE%91-183576741733097/about/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrLinkColor\"><i class=\"fa fa-facebook\"></i></a>     ",
           "text2": "<b><br></b><b>Site Design by:&nbsp;<a href=\"https://leanshot.xyz\" target=\"_blank\">leanshot.xyz</a></b><b><br></b><br><b>sineterakia.com 2017, All Rights Reserved<a href=\"https://leanshot.xyz\" target=\"_blank\"><br></a></b><br>",
           "title": "<b>ΤΟ ΜΗΝΥΜΑ ΣΑΣ</b>",
@@ -678,7 +678,7 @@
             }
           },
           "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">ΤΑ ΣΥΝΕΤΑΙΡΑΚΙΑ</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">ΑΡΧΙΚΗ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">ΠΟΙΟΙ ΕΙΜΑΣΤΕ</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">GALLERY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PHOTOS.html\">ΦΩΤΟΓΡΑΦΙΕΣ</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VIDEOS.html\">ΒΙΝΤΕΟ</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-info\" href=\"https://m.me\" target=\"_blank\"><span class=\"mbri-touch-swipe mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 24px;\"></span>&nbsp;FACEBOOK MESSENGER</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-primary\" href=\"tel:+306944715900\"><span class=\"mbri-touch mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 21px;\"></span>&nbsp;6944 715 900</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">ΑΡΧΙΚΗ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ABOUT US.html\">ΠΟΙΟΙ ΕΙΜΑΣΤΕ</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">GALLERY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PHOTOS.html\">ΦΩΤΟΓΡΑΦΙΕΣ</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VIDEOS.html\">ΒΙΝΤΕΟ</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-info\" href=\"m.me/183576741733097\" target=\"_blank\"><span class=\"mbri-touch-swipe mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 24px;\"></span>&nbsp;FACEBOOK MESSENGER</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-primary\" href=\"tel:+306944715900\"><span class=\"mbri-touch mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 21px;\"></span>&nbsp;6944 715 900</a></li>"
         },
         {
           "alias": "unicore/components",
@@ -715,7 +715,7 @@
             }
           },
           "title1": "ΤΑ ΣΥΝΕΤΑΙΡΑΚΙΑ",
-          "text1": "<a href=\"page4.html\">TERMS OF SERVICE</a><br><a href=\"page5.html\">PRIVACY POLICY</a><br>",
+          "text1": "<a href=\"TOS.html\">TERMS OF SERVICE</a><br><a href=\"PRIVACY.html\">PRIVACY POLICY</a><br>",
           "icons": " <a class=\"fa\" data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://el-gr.facebook.com/pg/%CE%A3%CE%A5%CE%9D%CE%95%CE%A4%CE%91%CE%99%CE%A1%CE%91%CE%9A%CE%99%CE%91-183576741733097/about/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrLinkColor\"><i class=\"fa fa-facebook\"></i></a>     ",
           "text2": "<b><br></b><b>Site Design by:&nbsp;<a href=\"https://leanshot.xyz\" target=\"_blank\">leanshot.xyz</a></b><b><br></b><br><b>sineterakia.com 2017, All Rights Reserved<a href=\"https://leanshot.xyz\" target=\"_blank\"><br></a></b><br>",
           "title": "<b>ΤΟ ΜΗΝΥΜΑ ΣΑΣ</b>",
@@ -808,7 +808,7 @@
             }
           },
           "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">ΤΑ ΣΥΝΕΤΑΙΡΑΚΙΑ</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">ΑΡΧΙΚΗ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">ΠΟΙΟΙ ΕΙΜΑΣΤΕ</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">GALLERY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PHOTOS.html\">ΦΩΤΟΓΡΑΦΙΕΣ</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VIDEOS.html\">ΒΙΝΤΕΟ</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-info\" href=\"https://m.me\" target=\"_blank\"><span class=\"mbri-touch-swipe mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 24px;\"></span>&nbsp;FACEBOOK MESSENGER</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-primary\" href=\"tel:+306944715900\"><span class=\"mbri-touch mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 21px;\"></span>&nbsp;6944 715 900</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">ΑΡΧΙΚΗ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ABOUT US.html\">ΠΟΙΟΙ ΕΙΜΑΣΤΕ</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">GALLERY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PHOTOS.html\">ΦΩΤΟΓΡΑΦΙΕΣ</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VIDEOS.html\">ΒΙΝΤΕΟ</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-info\" href=\"m.me/183576741733097\" target=\"_blank\"><span class=\"mbri-touch-swipe mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 24px;\"></span>&nbsp;FACEBOOK MESSENGER</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-primary\" href=\"tel:+306944715900\"><span class=\"mbri-touch mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 21px;\"></span>&nbsp;6944 715 900</a></li>"
         },
         {
           "alias": "unicore/components",
@@ -876,7 +876,7 @@
           },
           "title": "BINTEO 1",
           "text": "Επισκεφτείτε το κανάλι μας στο youtube!",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\" href=\"https://www.youtube.com/user/sineterakia/featured\">ΠΑΜΕ ΣΤΟ YOUTUBE</a>"
+          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\" href=\"https://www.youtube.com/user/sineterakia/featured\" target=\"_blank\">ΠΑΜΕ ΣΤΟ YOUTUBE</a>"
         },
         {
           "headerAlign": "left",
@@ -908,7 +908,7 @@
           },
           "title": "ΒΙΝΤΕΟ 2",
           "text": "Επισκεφτείτε το κανάλι μας στο youtube!",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\" href=\"https://www.youtube.com/user/sineterakia/featured\">ΠΑΜΕ ΣΤΟ YOUTUBE</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\" href=\"https://www.youtube.com/user/sineterakia/featured\" target=\"_blank\">ΠΑΜΕ ΣΤΟ YOUTUBE</a>",
           "media": {
             "image": {
               "class": "mbr-figure__img",
@@ -970,7 +970,7 @@
           },
           "title": "ΒΙΝΤΕΟ 3",
           "text": "Επισκεφτείτε το κανάλι μας στο youtube!",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\" href=\"https://www.youtube.com/user/sineterakia/featured\">ΠΑΜΕ ΣΤΟ YOUTUBE</a>"
+          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\" href=\"https://www.youtube.com/user/sineterakia/featured\" target=\"_blank\">ΠΑΜΕ ΣΤΟ YOUTUBE</a>"
         },
         {
           "headerAlign": "left",
@@ -1002,7 +1002,7 @@
           },
           "title": "ΒΙΝΤΕΟ 4",
           "text": "Επισκεφτείτε το κανάλι μας στο youtube!",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\" href=\"https://www.youtube.com/user/sineterakia/featured\">ΠΑΜΕ ΣΤΟ YOUTUBE</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\" href=\"https://www.youtube.com/user/sineterakia/featured\" target=\"_blank\">ΠΑΜΕ ΣΤΟ YOUTUBE</a>",
           "media": {
             "image": {
               "class": "mbr-figure__img",
@@ -1064,7 +1064,7 @@
           },
           "title": "ΒΙΝΤΕΟ 5",
           "text": "Επισκεφτείτε το κανάλι μας στο youtube!",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\" href=\"https://www.youtube.com/user/sineterakia/featured\">ΠΑΜΕ ΣΤΟ YOUTUBE</a>"
+          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\" href=\"https://www.youtube.com/user/sineterakia/featured\" target=\"_blank\">ΠΑΜΕ ΣΤΟ YOUTUBE</a>"
         },
         {
           "headerAlign": "left",
@@ -1096,7 +1096,7 @@
           },
           "title": "ΒΙΝΤΕΟ 6",
           "text": "Επισκεφτείτε το κανάλι μας στο youtube!",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\" href=\"https://www.youtube.com/user/sineterakia/featured\">ΠΑΜΕ ΣΤΟ YOUTUBE</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\" href=\"https://www.youtube.com/user/sineterakia/featured\" target=\"_blank\">ΠΑΜΕ ΣΤΟ YOUTUBE</a>",
           "media": {
             "image": {
               "class": "mbr-figure__img",
@@ -1158,7 +1158,7 @@
           },
           "title": "ΒΙΝΤΕΟ 7",
           "text": "Επισκεφτείτε το κανάλι μας στο youtube!",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\" href=\"https://www.youtube.com/user/sineterakia/featured\">ΠΑΜΕ ΣΤΟ YOUTUBE</a>"
+          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\" href=\"https://www.youtube.com/user/sineterakia/featured\" target=\"_blank\">ΠΑΜΕ ΣΤΟ YOUTUBE</a>"
         },
         {
           "headerAlign": "left",
@@ -1190,7 +1190,7 @@
           },
           "title": "ΒΙΝΤΕΟ 8",
           "text": "Επισκεφτείτε το κανάλι μας στο youtube!",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\" href=\"https://www.youtube.com/user/sineterakia/featured\">παμε στο youtube</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\" href=\"https://www.youtube.com/user/sineterakia/featured\" target=\"_blank\">παμε στο youtube</a>",
           "media": {
             "image": {
               "class": "mbr-figure__img",
@@ -1242,7 +1242,7 @@
             }
           },
           "title1": "ΤΑ ΣΥΝΕΤΑΙΡΑΚΙΑ",
-          "text1": "<a href=\"page4.html\">TERMS OF SERVICE</a><br><a href=\"page5.html\">PRIVACY POLICY</a><br>",
+          "text1": "<a href=\"TOS.html\">TERMS OF SERVICE</a><br><a href=\"PRIVACY.html\">PRIVACY POLICY</a><br>",
           "icons": " <a class=\"fa\" data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://el-gr.facebook.com/pg/%CE%A3%CE%A5%CE%9D%CE%95%CE%A4%CE%91%CE%99%CE%A1%CE%91%CE%9A%CE%99%CE%91-183576741733097/about/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrLinkColor\"><i class=\"fa fa-facebook\"></i></a>     ",
           "text2": "<b><br></b><b>Site Design by:&nbsp;<a href=\"https://leanshot.xyz\" target=\"_blank\">leanshot.xyz</a></b><b><br></b><br><b>sineterakia.com 2017, All Rights Reserved<a href=\"https://leanshot.xyz\" target=\"_blank\"><br></a></b><br>",
           "title": "<b>ΤΟ ΜΗΝΥΜΑ ΣΑΣ</b>",
@@ -1356,7 +1356,7 @@
             }
           },
           "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">ΤΑ ΣΥΝΕΤΑΙΡΑΚΙΑ</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">ΑΡΧΙΚΗ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">ΠΟΙΟΙ ΕΙΜΑΣΤΕ</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">GALLERY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PHOTOS.html\">ΦΩΤΟΓΡΑΦΙΕΣ</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VIDEOS.html\">ΒΙΝΤΕΟ</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-info\" href=\"https://m.me\" target=\"_blank\"><span class=\"mbri-touch-swipe mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 24px;\"></span>&nbsp;FACEBOOK MESSENGER</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-primary\" href=\"tel:+306944715900\"><span class=\"mbri-touch mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 21px;\"></span>&nbsp;6944 715 900</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">ΑΡΧΙΚΗ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ABOUT US.html\">ΠΟΙΟΙ ΕΙΜΑΣΤΕ</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">GALLERY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PHOTOS.html\">ΦΩΤΟΓΡΑΦΙΕΣ</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VIDEOS.html\">ΒΙΝΤΕΟ</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-info\" href=\"m.me/183576741733097\" target=\"_blank\"><span class=\"mbri-touch-swipe mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 24px;\"></span>&nbsp;FACEBOOK MESSENGER</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-primary\" href=\"tel:+306944715900\"><span class=\"mbri-touch mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 21px;\"></span>&nbsp;6944 715 900</a></li>"
         },
         {
           "alias": "unicore/components",
@@ -1393,7 +1393,7 @@
             }
           },
           "title1": "ΤΑ ΣΥΝΕΤΑΙΡΑΚΙΑ",
-          "text1": "<a href=\"page4.html\">TERMS OF SERVICE</a><br><a href=\"page5.html\">PRIVACY POLICY</a><br>",
+          "text1": "<a href=\"TOS.html\">TERMS OF SERVICE</a><br><a href=\"PRIVACY.html\">PRIVACY POLICY</a><br>",
           "icons": " <a class=\"fa\" data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://el-gr.facebook.com/pg/%CE%A3%CE%A5%CE%9D%CE%95%CE%A4%CE%91%CE%99%CE%A1%CE%91%CE%9A%CE%99%CE%91-183576741733097/about/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrLinkColor\"><i class=\"fa fa-facebook\"></i></a>     ",
           "text2": "<b><br></b><b>Site Design by:&nbsp;<a href=\"https://leanshot.xyz\" target=\"_blank\">leanshot.xyz</a></b><b><br></b><br><b>sineterakia.com 2017, All Rights Reserved<a href=\"https://leanshot.xyz\" target=\"_blank\"><br></a></b><br>",
           "title": "<b>ΤΟ ΜΗΝΥΜΑ ΣΑΣ</b>",
@@ -1486,7 +1486,7 @@
             }
           },
           "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">ΤΑ ΣΥΝΕΤΑΙΡΑΚΙΑ</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">ΑΡΧΙΚΗ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">ΠΟΙΟΙ ΕΙΜΑΣΤΕ</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">GALLERY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PHOTOS.html\">ΦΩΤΟΓΡΑΦΙΕΣ</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VIDEOS.html\">ΒΙΝΤΕΟ</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-info\" href=\"https://m.me\" target=\"_blank\"><span class=\"mbri-touch-swipe mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 24px;\"></span>&nbsp;FACEBOOK MESSENGER</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-primary\" href=\"tel:+306944715900\"><span class=\"mbri-touch mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 21px;\"></span>&nbsp;6944 715 900</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">ΑΡΧΙΚΗ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ABOUT US.html\">ΠΟΙΟΙ ΕΙΜΑΣΤΕ</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">GALLERY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PHOTOS.html\">ΦΩΤΟΓΡΑΦΙΕΣ</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VIDEOS.html\">ΒΙΝΤΕΟ</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-info\" href=\"m.me/183576741733097\" target=\"_blank\"><span class=\"mbri-touch-swipe mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 24px;\"></span>&nbsp;FACEBOOK MESSENGER</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-primary\" href=\"tel:+306944715900\"><span class=\"mbri-touch mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 21px;\"></span>&nbsp;6944 715 900</a></li>"
         },
         {
           "_inherit": "header7",
@@ -1502,8 +1502,8 @@
           },
           "_anchor": "header27-k",
           "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
+            "paddingTop": "1",
+            "paddingBottom": "1",
             "iconsColor": "#fff",
             "parallax": false,
             "bgImageRadio": true,
@@ -1519,7 +1519,7 @@
             "overlayColor": "#151515",
             "showTitle": true,
             "showText": true,
-            "showButtons": true,
+            "showButtons": false,
             "showIcons": false,
             "icon1": "fa-database",
             "showTitles": false,
@@ -1527,13 +1527,48 @@
             "icon3": "fa-money",
             "icon4": "fa-clock-o"
           },
-          "title": "<b>Μεταφορές Με Ασφάλεια, Στην Ώρα τους, και Οικονομικά.</b>",
-          "text": "<b>Είμαστε στη διάθεσή σας για ότι μας χρειαστείτε. Τηλεφωνήστε μας ώρες γραφείου, ή επικοινωνήστε μέσω e-mail και Facebook Messenger.</b>",
+          "title": "<b><br></b><b>Λίγα λόγια για την εταιρεία μας..</b>",
+          "text": "",
           "buttons": "<a data-app-btn=\"true\" href=\"#\" class=\"btn mbr-title-font btn-lg btn-info\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-touch-swipe mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 23px;\"></span>&nbsp;FACEBOOK MESSENGER</a>",
           "title1": "Multi Layouts",
           "title2": "Creative Idea",
           "title3": "Target Buyers",
           "title4": "Reach Top"
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box11",
+          "_anchor": "msg-box11-1p",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515",
+            "showTitle": false
+          },
+          "title": "12 Column Width",
+          "text": "Η εταιρία ΤΑ ΣΥΝΕΤΑΙΡΑΚΙΑ ιδρύθηκε το 1997 στη Θεσσαλονίκη και δραστηριοποιείται στον τομέα των μεταφορών,<br><br>ανυψώσεων, ανελκύσεων και ρυμουλκήσεων με γερανοφόρα οχήματα.<br><br>Ιδρύσαμε την εταιρεία μας με στόχο να δώσουμε επαγγελματικές, αξιόπιστες, και οικονομικά συμφέρουσες λύσεις<br><br>στις ανάγκες των πελατών μας.<br><br>Σήμερα, είκοσι χρόνια μετά, συνεχίζουμε να λειτουργούμε με τον ίδιο ακριβώς επαγγελματισμό.<br><br>Από την πιο απλή μεταφορά, μέχρι την πιο εξειδικευμένη ανύψωση, είμαστε στη διάθεσή σας για να σας<br><br>προσφέρουμε τις λύσεις που χρείάζεστε για τις εργασίες σας.<br><br>Σας καλούμε να περιηγηθείτε στο site μας, και να πάρετε μια γεύση από τις δουλειές μας, και του τι μπορούμε να<br><br>σας προσφέρουμε.<br><br>Και φυσικά, είμαστε στη διάθεσή σας για οποιεσδήποτε επιπλέον διευκρινήσεις ή απορίες.<br><br>Φιλικά,<br><b><br></b><br><b>Τα Συνεταιράκια</b>",
+          "_styles": {
+            "P": {
+              "font-size": "20px"
+            },
+            "B": {
+              "text-align": "center"
+            }
+          }
         },
         {
           "alias": "unicore/components",
@@ -1570,7 +1605,7 @@
             }
           },
           "title1": "ΤΑ ΣΥΝΕΤΑΙΡΑΚΙΑ",
-          "text1": "<a href=\"page4.html\">TERMS OF SERVICE</a><br><a href=\"page5.html\">PRIVACY POLICY</a><br>",
+          "text1": "<a href=\"TOS.html\">TERMS OF SERVICE</a><br><a href=\"PRIVACY.html\">PRIVACY POLICY</a><br>",
           "icons": " <a class=\"fa\" data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://el-gr.facebook.com/pg/%CE%A3%CE%A5%CE%9D%CE%95%CE%A4%CE%91%CE%99%CE%A1%CE%91%CE%9A%CE%99%CE%91-183576741733097/about/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrLinkColor\"><i class=\"fa fa-facebook\"></i></a>     ",
           "text2": "<b><br></b><b>Site Design by:&nbsp;<a href=\"https://leanshot.xyz\" target=\"_blank\">leanshot.xyz</a></b><b><br></b><br><b>sineterakia.com 2017, All Rights Reserved<a href=\"https://leanshot.xyz\" target=\"_blank\"><br></a></b><br>",
           "title": "<b>ΤΟ ΜΗΝΥΜΑ ΣΑΣ</b>",
