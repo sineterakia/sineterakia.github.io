@@ -23,8 +23,8 @@
       ]
     },
     "versionFirst": "3.9.0",
-    "uniqCompNum": 54,
-    "versionPublish": "4.3.0",
+    "uniqCompNum": 58,
+    "versionPublish": "3.12.1",
     "favicon": "@PROJECT_PATH@/assets/images/favicon-32x32-32x32.png",
     "noImageResize": "",
     "cookiesAlert": "The site uses cookies. Read our Privacy Policy for more details",
@@ -73,15 +73,15 @@
           "_name": "dropdown-menu1",
           "_anchor": "dropdown-menu1-0",
           "_params": {
-            "logo": false,
-            "showBrand": true,
-            "hideButtons": false,
-            "sticky": true,
-            "transparent": false,
             "bgColor": "#ffffff",
             "fontSize": 1,
             "fontName": {},
-            "fontColor": "#000000"
+            "fontColor": "#000000",
+            "transparent": false,
+            "sticky": true,
+            "logo": false,
+            "showBrand": true,
+            "hideButtons": false
           },
           "logo": {
             "image": {
@@ -98,73 +98,188 @@
         },
         {
           "_inherit": "header7",
-          "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/62-2000x1500.jpg",
-            "parallax": false,
-            "bgColorRadio": false,
-            "bgColor": "#8c230e",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": "0.4",
-            "showIcons": false,
-            "iconsColor": "#fff",
-            "icon1": "fa-database",
-            "icon2": "fa-lightbulb-o",
-            "icon3": "fa-money",
-            "icon4": "fa-clock-o",
-            "showTitles": false
-          },
           "alias": "unicore/components",
           "_tags": [
             "Theme"
           ],
-          "title": "<b>Μεταφορές Με Ασφάλεια, Στην Ώρα τους, και Οικονομικά.</b>",
-          "title1": "Multi Layouts",
-          "title2": "Creative Idea",
-          "title3": "Target Buyers",
-          "title4": "Reach Top",
-          "text": "<b>Είμαστε στη διάθεσή σας για ότι μας χρειαστείτε. Τηλεφωνήστε μας ώρες γραφείου, ή επικοινωνήστε μέσω e-mail και Facebook Messenger.</b>",
-          "buttons": "<a data-app-btn=\"true\" href=\"#\" class=\"btn mbr-title-font btn-lg btn-info\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-touch-swipe mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 23px;\"></span>&nbsp;FACEBOOK MESSENGER</a>",
           "_name": "header27",
-          "_anchor": "header27-7",
           "_styles": {
             ".btn": {
               "font-size": "16px"
             }
-          }
-        },
-        {
+          },
+          "_anchor": "header27-7",
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "showMedia": true,
             "paddingTop": 2,
             "paddingBottom": 2,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "iconsColor": "#fff",
             "parallax": false,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/62-2000x1500.jpg",
+            "bgColor": "#8c230e",
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
+            "overlayOpacity": "0.4",
             "overlayColor": "#151515",
-            "overlayOpacity": 0.5
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showIcons": false,
+            "icon1": "fa-database",
+            "showTitles": false,
+            "icon2": "fa-lightbulb-o",
+            "icon3": "fa-money",
+            "icon4": "fa-clock-o"
           },
+          "title": "<b>Μεταφορές Με Ασφάλεια, Στην Ώρα τους, και Οικονομικά.</b>",
+          "text": "<b>Είμαστε στη διάθεσή σας για ότι μας χρειαστείτε. Τηλεφωνήστε μας ώρες γραφείου, ή επικοινωνήστε μέσω e-mail και Facebook Messenger.</b>",
+          "buttons": "<a data-app-btn=\"true\" href=\"#\" class=\"btn mbr-title-font btn-lg btn-info\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-touch-swipe mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 23px;\"></span>&nbsp;FACEBOOK MESSENGER</a>",
+          "title1": "Multi Layouts",
+          "title2": "Creative Idea",
+          "title3": "Target Buyers",
+          "title4": "Reach Top"
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header7",
+          "_anchor": "header7-1k",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "iconsColor": "#fff",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/14.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.25,
+            "overlayColor": "#151515",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showIcons": false,
+            "icon1": "fa-database",
+            "showTitles": false,
+            "icon2": "fa-lightbulb-o",
+            "icon3": "fa-money",
+            "icon4": "fa-clock-o"
+          },
+          "title": "<b style=\"line-height: 1.1; background-color: inherit;\">Μεταφορές, Ανυψώσεις, Ανελκύσεις, Ρυμουλκήσεις</b><br>",
+          "text": "Βαρέου Τύπου -&nbsp;Βαρέων Επίπλων - Φωτοβολταϊκών -&nbsp;Δομικών Υλικών<br>            Διαφημιστικές Πινακίδες - Επιγραφές -&nbsp;Έλξεις και Ρυμουλκήσεις<br>            Κατασκευές - Σιλό - Δεξαμενές - Προκάτ Σπίτια<br>            Ανυψωτικές Εργασίες με Σταθερό Καλάθι<br>",
+          "buttons": "<a data-app-btn=\"true\" href=\"#\" class=\"btn mbr-title-font btn-lg btn-primary\">Purchase Now <i class=\"fa fa-shopping-basket\"></i></a>",
+          "title1": "Multi Layouts",
+          "title2": "Creative Idea",
+          "title3": "Target Buyers",
+          "title4": "Reach Top",
+          "_styles": {
+            "H3": {
+              "color": "#000000"
+            },
+            "P": {
+              "color": "#000000",
+              "font-size": "21px"
+            }
+          }
+        },
+        {
           "headerAlign": "left",
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box5",
+          "_anchor": "msg-box5-1l",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515",
+            "showMedia": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "media": {
+            "image": {
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/63-2000x1500.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false,
+              "active": true
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "<b>ΦΩΤΟΓΡΑΦΙΚΟ ΥΛΙΚΟ</b>",
+          "text": "Δείτε φωτογραφικό υλικό από παλαιότερες και νεότερες εργασίες μας.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\" href=\"PHOTOS.html\">ΠΑΜΕ ΣΤΗ ΣΕΛΙΔΑ</a>",
+          "_styles": {
+            "P": {
+              "font-size": "20px"
+            }
+          }
+        },
+        {
+          "headerAlign": "left",
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-19",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showMedia": true
+          },
+          "title": "<b>ΒΙΝΤΕΟ</b>",
+          "text": "Δείτε βίντεο από τις δουλειές μας, και πάρτε μια γεύση από το πως μπορούμε να σας βοηθήσουμε!",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\" href=\"VIDEOS.html\">ΠΑΜΕ ΣΤΗ ΣΕΛΙΔΑ!</a>",
           "media": {
             "image": {
               "class": "mbr-figure__img",
@@ -183,32 +298,39 @@
               "loop": false
             }
           },
-          "title": "ΒΙΝΤΕΟ",
-          "text": "Δείτε βίντεο από τις δουλειές μας, και πάρτε μια γεύση από το πως μπορούμε να σας βοηθήσουμε!",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\" href=\"VIDEOS.html\">ΠΑΜΕ ΣΤΗ ΣΕΛΙΔΑ!</a>",
+          "_styles": {
+            "P": {
+              "font-size": "20px"
+            }
+          }
+        },
+        {
           "alias": "unicore/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "msg-box4",
-          "_anchor": "msg-box4-19"
-        },
-        {
+          "_name": "contacts4",
+          "_styles": {
+            "H1": {
+              "font-size": "12px"
+            }
+          },
+          "_anchor": "contacts4-b",
           "_params": {
             "paddingTop": 2,
             "paddingBottom": 2,
+            "parallax": false,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/1.jpg",
-            "parallax": false,
-            "bgColorRadio": true,
             "bgColor": "#333",
-            "bgVideoRadio": false,
+            "bgColorRadio": true,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
-            "overlayColor": "#151515",
             "overlayOpacity": 0.5,
+            "overlayColor": "#151515",
             "googleMap": {
               "address": "ΔΕΡΒΕΝΑΚΙΩΝ 33,\nΘεσσαλονίκη",
               "placeId": "ChIJ3X9Gxs05qBQR92hDdL25u00",
@@ -220,7 +342,6 @@
           "text1": "<a href=\"page4.html\">TERMS OF SERVICE</a><br><a href=\"page5.html\">PRIVACY POLICY</a><br>",
           "icons": " <a class=\"fa\" data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://el-gr.facebook.com/pg/%CE%A3%CE%A5%CE%9D%CE%95%CE%A4%CE%91%CE%99%CE%A1%CE%91%CE%9A%CE%99%CE%91-183576741733097/about/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrLinkColor\"><i class=\"fa fa-facebook\"></i></a>     ",
           "text2": "<b><br></b><b>Site Design by:&nbsp;<a href=\"https://leanshot.xyz\" target=\"_blank\">leanshot.xyz</a></b><b><br></b><br><b>sineterakia.com 2017, All Rights Reserved<a href=\"https://leanshot.xyz\" target=\"_blank\"><br></a></b><br>",
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-primary btn-ico\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">ΑΠΟΣΤΟΛΗ<i class=\"fa fa-paper-plane-o\"></i></a>",
           "title": "<b>ΤΟ ΜΗΝΥΜΑ ΣΑΣ</b>",
           "form": {
             "action": "sineterakia@mailinator.com",
@@ -229,13 +350,13 @@
             },
             "fields": {
               "name": {
-                "visible": true,
                 "title": "Name",
+                "visible": true,
                 "customTitle": "Το Όνομά σας"
               },
               "email": {
-                "visible": true,
                 "title": "Email",
+                "visible": true,
                 "customTitle": "Το Email σας"
               },
               "message": {
@@ -244,17 +365,7 @@
               }
             }
           },
-          "alias": "unicore/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "contacts4",
-          "_anchor": "contacts4-b",
-          "_styles": {
-            "H1": {
-              "font-size": "12px"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-primary btn-ico\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">ΑΠΟΣΤΟΛΗ<i class=\"fa fa-paper-plane-o\"></i></a>"
         }
       ]
     },
@@ -270,61 +381,61 @@
       "components": [
         {
           "_inherit": "header6",
-          "_params": {
-            "showTitle": true,
-            "showText": false,
-            "showButtons": false,
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/12.jpg",
-            "parallax": false,
-            "bgColorRadio": true,
-            "bgColor": "#8fafc3",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#000",
-            "overlayOpacity": 0.35
-          },
           "alias": "unicore/components",
           "_tags": [
             "Theme"
           ],
-          "title": "PRIVACY POLICY",
-          "text": "Nam tellus turpis blandit et ligula vel lacinia massa sit amet minus fugit in ipsum semper euismod massa auctor magna eget nunc iaculis nunc.",
-          "buttons": "<a data-app-btn=\"true\" href=\"#\" class=\"btn mbr-title-font btn-lg btn-primary\">Purchase Now <i class=\"fa fa-shopping-basket\"></i></a><a data-app-btn=\"true\" href=\"#\" class=\"btn mbr-title-font btn-lg btn-default btn-border\">Learn More <i class=\"fa fa-angle-right\"></i></a>",
           "_name": "header26",
-          "_anchor": "header26-1h"
-        },
-        {
+          "_anchor": "header26-1h",
           "_params": {
-            "showTitle": true,
             "paddingTop": 2,
             "paddingBottom": 2,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
             "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/12.jpg",
+            "bgColor": "#8fafc3",
             "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": 0.5
+            "overlayOpacity": 0.35,
+            "overlayColor": "#000",
+            "showTitle": true,
+            "showText": false,
+            "showButtons": false
           },
-          "title": "our privacy policy",
-          "text": "This privacy notice discloses the privacy practices for (website address). This privacy notice applies solely to information collected by this website. It will notify you of the following:\n<br>\n<br>    What personally identifiable information is collected from you through the website, how it is used and with whom it may be shared.\n<br>    What choices are available to you regarding the use of your data.\n<br>    The security procedures in place to protect the misuse of your information.\n<br>    How you can correct any inaccuracies in the information.\n<br>\n<br>Information Collection, Use, and Sharing\n<br>We are the sole owners of the information collected on this site. We only have access to/collect information that you voluntarily give us via email or other direct contact from you. We will not sell or rent this information to anyone.\n<br>\n<br>We will use your information to respond to you, regarding the reason you contacted us. We will not share your information with any third party outside of our organization, other than as necessary to fulfill your request, e.g. to ship an order.\n<br>\n<br>Unless you ask us not to, we may contact you via email in the future to tell you about specials, new products or services, or changes to this privacy policy.\n<br>\n<br>Your Access to and Control Over Information\n<br>You may opt out of any future contacts from us at any time. You can do the following at any time by contacting us via the email address or phone number given on our website:\n<br>\n<br>    See what data we have about you, if any.\n<br>    Change/correct any data we have about you.\n<br>    Have us delete any data we have about you.\n<br>    Express any concern you have about our use of your data.\n<br>\n<br>Security\n<br>We take precautions to protect your information. When you submit sensitive information via the website, your information is protected both online and offline.\n<br>\n<br>Wherever we collect sensitive information (such as credit card data), that information is encrypted and transmitted to us in a secure way. You can verify this by looking for a lock icon in the address bar and looking for \"https\" at the beginning of the address of the Web page.\n<br>\n<br>While we use encryption to protect sensitive information transmitted online, we also protect your information offline. Only employees who need the information to perform a specific job (for example, billing or customer service) are granted access to personally identifiable information. The computers/servers in which we store personally identifiable information are kept in a secure environment.",
+          "title": "PRIVACY POLICY",
+          "text": "Nam tellus turpis blandit et ligula vel lacinia massa sit amet minus fugit in ipsum semper euismod massa auctor magna eget nunc iaculis nunc.",
+          "buttons": "<a data-app-btn=\"true\" href=\"#\" class=\"btn mbr-title-font btn-lg btn-primary\">Purchase Now <i class=\"fa fa-shopping-basket\"></i></a><a data-app-btn=\"true\" href=\"#\" class=\"btn mbr-title-font btn-lg btn-default btn-border\">Learn More <i class=\"fa fa-angle-right\"></i></a>"
+        },
+        {
           "alias": "unicore/components",
           "_tags": [
             "Theme"
           ],
           "_name": "msg-box11",
-          "_anchor": "msg-box11-1g"
+          "_anchor": "msg-box11-1g",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515",
+            "showTitle": true
+          },
+          "title": "our privacy policy",
+          "text": "This privacy notice discloses the privacy practices for (website address). This privacy notice applies solely to information collected by this website. It will notify you of the following:\n<br>\n<br>    What personally identifiable information is collected from you through the website, how it is used and with whom it may be shared.\n<br>    What choices are available to you regarding the use of your data.\n<br>    The security procedures in place to protect the misuse of your information.\n<br>    How you can correct any inaccuracies in the information.\n<br>\n<br>Information Collection, Use, and Sharing\n<br>We are the sole owners of the information collected on this site. We only have access to/collect information that you voluntarily give us via email or other direct contact from you. We will not sell or rent this information to anyone.\n<br>\n<br>We will use your information to respond to you, regarding the reason you contacted us. We will not share your information with any third party outside of our organization, other than as necessary to fulfill your request, e.g. to ship an order.\n<br>\n<br>Unless you ask us not to, we may contact you via email in the future to tell you about specials, new products or services, or changes to this privacy policy.\n<br>\n<br>Your Access to and Control Over Information\n<br>You may opt out of any future contacts from us at any time. You can do the following at any time by contacting us via the email address or phone number given on our website:\n<br>\n<br>    See what data we have about you, if any.\n<br>    Change/correct any data we have about you.\n<br>    Have us delete any data we have about you.\n<br>    Express any concern you have about our use of your data.\n<br>\n<br>Security\n<br>We take precautions to protect your information. When you submit sensitive information via the website, your information is protected both online and offline.\n<br>\n<br>Wherever we collect sensitive information (such as credit card data), that information is encrypted and transmitted to us in a secure way. You can verify this by looking for a lock icon in the address bar and looking for \"https\" at the beginning of the address of the Web page.\n<br>\n<br>While we use encryption to protect sensitive information transmitted online, we also protect your information offline. Only employees who need the information to perform a specific job (for example, billing or customer service) are granted access to personally identifiable information. The computers/servers in which we store personally identifiable information are kept in a secure environment."
         },
         {
           "_inherit": "dropdown-menu",
@@ -356,16 +467,17 @@
             }
           },
           "_name": "dropdown-menu1",
+          "_anchor": "dropdown-menu1-v",
           "_params": {
-            "logo": false,
-            "showBrand": true,
-            "hideButtons": false,
-            "sticky": true,
-            "transparent": false,
             "bgColor": "#ffffff",
             "fontSize": 1,
             "fontName": {},
-            "fontColor": "#000000"
+            "fontColor": "#000000",
+            "transparent": false,
+            "sticky": true,
+            "logo": false,
+            "showBrand": true,
+            "hideButtons": false
           },
           "logo": {
             "image": {
@@ -378,25 +490,35 @@
             }
           },
           "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">ΤΑ ΣΥΝΕΤΑΙΡΑΚΙΑ</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">ΑΡΧΙΚΗ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">ΠΟΙΟΙ ΕΙΜΑΣΤΕ</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">GALLERY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PHOTOS.html\">ΦΩΤΟΓΡΑΦΙΕΣ</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VIDEOS.html\">ΒΙΝΤΕΟ</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-info\" href=\"https://m.me\" target=\"_blank\"><span class=\"mbri-touch-swipe mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 24px;\"></span>&nbsp;FACEBOOK MESSENGER</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-primary\" href=\"tel:+306944715900\"><span class=\"mbri-touch mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 21px;\"></span>&nbsp;6944 715 900</a></li>",
-          "_anchor": "dropdown-menu1-v"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">ΑΡΧΙΚΗ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">ΠΟΙΟΙ ΕΙΜΑΣΤΕ</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">GALLERY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PHOTOS.html\">ΦΩΤΟΓΡΑΦΙΕΣ</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VIDEOS.html\">ΒΙΝΤΕΟ</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-info\" href=\"https://m.me\" target=\"_blank\"><span class=\"mbri-touch-swipe mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 24px;\"></span>&nbsp;FACEBOOK MESSENGER</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-primary\" href=\"tel:+306944715900\"><span class=\"mbri-touch mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 21px;\"></span>&nbsp;6944 715 900</a></li>"
         },
         {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts4",
+          "_styles": {
+            "H1": {
+              "font-size": "12px"
+            }
+          },
+          "_anchor": "contacts4-x",
           "_params": {
             "paddingTop": 2,
             "paddingBottom": 2,
+            "parallax": false,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/1.jpg",
-            "parallax": false,
-            "bgColorRadio": true,
             "bgColor": "#333",
-            "bgVideoRadio": false,
+            "bgColorRadio": true,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
-            "overlayColor": "#151515",
             "overlayOpacity": 0.5,
+            "overlayColor": "#151515",
             "googleMap": {
               "address": "ΔΕΡΒΕΝΑΚΙΩΝ 33,\nΘεσσαλονίκη",
               "placeId": "ChIJ3X9Gxs05qBQR92hDdL25u00",
@@ -408,7 +530,6 @@
           "text1": "<a href=\"page4.html\">TERMS OF SERVICE</a><br><a href=\"page5.html\">PRIVACY POLICY</a><br>",
           "icons": " <a class=\"fa\" data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://el-gr.facebook.com/pg/%CE%A3%CE%A5%CE%9D%CE%95%CE%A4%CE%91%CE%99%CE%A1%CE%91%CE%9A%CE%99%CE%91-183576741733097/about/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrLinkColor\"><i class=\"fa fa-facebook\"></i></a>     ",
           "text2": "<b><br></b><b>Site Design by:&nbsp;<a href=\"https://leanshot.xyz\" target=\"_blank\">leanshot.xyz</a></b><b><br></b><br><b>sineterakia.com 2017, All Rights Reserved<a href=\"https://leanshot.xyz\" target=\"_blank\"><br></a></b><br>",
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-primary btn-ico\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">ΑΠΟΣΤΟΛΗ<i class=\"fa fa-paper-plane-o\"></i></a>",
           "title": "<b>ΤΟ ΜΗΝΥΜΑ ΣΑΣ</b>",
           "form": {
             "action": "sineterakia@mailinator.com",
@@ -417,13 +538,13 @@
             },
             "fields": {
               "name": {
-                "visible": true,
                 "title": "Name",
+                "visible": true,
                 "customTitle": "Το Όνομά σας"
               },
               "email": {
-                "visible": true,
                 "title": "Email",
+                "visible": true,
                 "customTitle": "Το Email σας"
               },
               "message": {
@@ -432,17 +553,7 @@
               }
             }
           },
-          "alias": "unicore/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "contacts4",
-          "_styles": {
-            "H1": {
-              "font-size": "12px"
-            }
-          },
-          "_anchor": "contacts4-x"
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-primary btn-ico\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">ΑΠΟΣΤΟΛΗ<i class=\"fa fa-paper-plane-o\"></i></a>"
         }
       ]
     },
@@ -458,61 +569,61 @@
       "components": [
         {
           "_inherit": "header6",
-          "_params": {
-            "showTitle": true,
-            "showText": false,
-            "showButtons": false,
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/12.jpg",
-            "parallax": false,
-            "bgColorRadio": true,
-            "bgColor": "#8fafc3",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#000",
-            "overlayOpacity": 0.35
-          },
           "alias": "unicore/components",
           "_tags": [
             "Theme"
           ],
-          "title": "Terms of Service",
-          "text": "Nam tellus turpis blandit et ligula vel lacinia massa sit amet minus fugit in ipsum semper euismod massa auctor magna eget nunc iaculis nunc.",
-          "buttons": "<a data-app-btn=\"true\" href=\"#\" class=\"btn mbr-title-font btn-lg btn-primary\">Purchase Now <i class=\"fa fa-shopping-basket\"></i></a><a data-app-btn=\"true\" href=\"#\" class=\"btn mbr-title-font btn-lg btn-default btn-border\" data-toolbar=\"-mbrBtnMove\">Learn More <i class=\"fa fa-angle-right\"></i></a>",
           "_name": "header26",
-          "_anchor": "header26-1e"
-        },
-        {
+          "_anchor": "header26-1e",
           "_params": {
-            "showTitle": true,
             "paddingTop": 2,
             "paddingBottom": 2,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
             "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/12.jpg",
+            "bgColor": "#8fafc3",
             "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": 0.5
+            "overlayOpacity": 0.35,
+            "overlayColor": "#000",
+            "showTitle": true,
+            "showText": false,
+            "showButtons": false
           },
-          "title": "Terms of Service of our site",
-          "text": "1. Introduction\n<br>These Website Standard Terms and Conditions written on this webpage shall manage your use of\n<br>this website. These Terms will be applied fully and affect to your use of this Website. By using this\n<br>Website, you agreed to accept all terms and conditions written in here. You must not use this\n<br>Website if you disagree with any of these Website Standard Terms and Conditions.\n<br>Minors or people below 18 years old are not allowed to use this Website.\n<br>2. Intellectual Property Rights\n<br>Other than the content you own, under these Terms, sineterakia and/or its licensors own all the\n<br>intellectual property rights and materials contained in this Website.\n<br>You are granted limited license only for purposes of viewing the material contained on this Website.\n<br>3. Restrictions\n<br>You are specifically restricted from all of the following\n<br>publishing any Website material in any other media;\n<br>selling, sublicensing and/or otherwise commercializing any Website material;\n<br>publicly performing and/or showing any Website material;\n<br>using this Website in any way that is or may be damaging to this Website;\n<br>using this Website in any way that impacts user access to this Website;\n<br>using this Website contrary to applicable laws and regulations, or in any way may cause\n<br>harm to the Website, or to any person or business entity;\n<br>engaging in any data mining, data harvesting, data extracting or any other similar activity in\n<br>relation to this Website;\n<br>using this Website to engage in any advertising or marketing.\n<br>Certain areas of this Website are restricted from being access by you and sineterakia may further\n<br>restrict access by you to any areas of this Website, at any time, in absolute discretion. Any user ID\n<br>and password you may have for this Website are confidential and you must maintain confidentiality\n<br>as well.\n<br>4. Your Content\n<br>In these Website Standard Terms and Conditions, “Your Content” shall mean any audio, video\n<br>text, images or other material you choose to display on this Website. By displaying Your Content,\n<br>you grant sineterakia a non-exclusive, worldwide irrevocable, sub licensable license to use,\n<br>reproduce, adapt, publish, translate and distribute it in any and all media.\n<br>Your Content must be your own and must not be invading any third-party’s rights. sineterakia\n<br>reserves the right to remove any of Your Content from this Website at any time without notice.\n<br>5. No warranties\n<br>This Website is provided “as is,” with all faults, and sineterakia express no representations or\n<br>warranties, of any kind related to this Website or the materials contained on this Website. Also,\n<br>nothing contained on this Website shall be interpreted as advising you.\n<br>6. Limitation of liability\n<br>In no event shall sineterakia, nor any of its officers, directors and employees, shall be held liable\n<br>for anything arising out of or in any way connected with your use of this Website whether such\n<br>liability is under contract. sineterakia, including its officers, directors and employees shall not be\n<br>held liable for any indirect, consequential or special liability arising out of or in any way related to\n<br>your use of this Website.\n<br>7. Indemnification\n<br>You hereby indemnify to the fullest extent sineterakia from and against any and/or all liabilities,\n<br>costs, demands, causes of action, damages and expenses arising in any way related to your\n<br>breach of any of the provisions of these Terms.\n<br>8. Severability\n<br>If any provision of these Terms is found to be invalid under any applicable law, such provisions\n<br>shall be deleted without affecting the remaining provisions herein.\n<br>9. Variation of Terms\n<br>sineterakia is permitted to revise these Terms at any time as it sees fit, and by using this Website\n<br>you are expected to review these Terms on a regular basis.\n<br>10. Assignment\n<br>The sineterakia is allowed to assign, transfer, and subcontract its rights and/or obligations under\n<br>these Terms without any notification. However, you are not allowed to assign, transfer, or\n<br>subcontract any of your rights and/or obligations under these Terms.\n<br>11. Entire Agreement\n<br>These Terms constitute the entire agreement between sineterakia and you in relation to your use\n<br>of this Website, and supersede all prior agreements and understandings.\n<br>12. Governing Law &amp; Jurisdiction\n<br>These Terms will be governed by and interpreted in accordance with the laws of the State of\n<br>Greece, and you submit to the non-exclusive jurisdiction of the state and federal courts located in\n<br>Greece for the resolution of any disputes.",
+          "title": "Terms of Service",
+          "text": "Nam tellus turpis blandit et ligula vel lacinia massa sit amet minus fugit in ipsum semper euismod massa auctor magna eget nunc iaculis nunc.",
+          "buttons": "<a data-app-btn=\"true\" href=\"#\" class=\"btn mbr-title-font btn-lg btn-primary\">Purchase Now <i class=\"fa fa-shopping-basket\"></i></a><a data-app-btn=\"true\" href=\"#\" class=\"btn mbr-title-font btn-lg btn-default btn-border\" data-toolbar=\"-mbrBtnMove\">Learn More <i class=\"fa fa-angle-right\"></i></a>"
+        },
+        {
           "alias": "unicore/components",
           "_tags": [
             "Theme"
           ],
           "_name": "msg-box11",
-          "_anchor": "msg-box11-1f"
+          "_anchor": "msg-box11-1f",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515",
+            "showTitle": true
+          },
+          "title": "Terms of Service of our site",
+          "text": "1. Introduction\n<br>These Website Standard Terms and Conditions written on this webpage shall manage your use of\n<br>this website. These Terms will be applied fully and affect to your use of this Website. By using this\n<br>Website, you agreed to accept all terms and conditions written in here. You must not use this\n<br>Website if you disagree with any of these Website Standard Terms and Conditions.\n<br>Minors or people below 18 years old are not allowed to use this Website.\n<br>2. Intellectual Property Rights\n<br>Other than the content you own, under these Terms, sineterakia and/or its licensors own all the\n<br>intellectual property rights and materials contained in this Website.\n<br>You are granted limited license only for purposes of viewing the material contained on this Website.\n<br>3. Restrictions\n<br>You are specifically restricted from all of the following\n<br>publishing any Website material in any other media;\n<br>selling, sublicensing and/or otherwise commercializing any Website material;\n<br>publicly performing and/or showing any Website material;\n<br>using this Website in any way that is or may be damaging to this Website;\n<br>using this Website in any way that impacts user access to this Website;\n<br>using this Website contrary to applicable laws and regulations, or in any way may cause\n<br>harm to the Website, or to any person or business entity;\n<br>engaging in any data mining, data harvesting, data extracting or any other similar activity in\n<br>relation to this Website;\n<br>using this Website to engage in any advertising or marketing.\n<br>Certain areas of this Website are restricted from being access by you and sineterakia may further\n<br>restrict access by you to any areas of this Website, at any time, in absolute discretion. Any user ID\n<br>and password you may have for this Website are confidential and you must maintain confidentiality\n<br>as well.\n<br>4. Your Content\n<br>In these Website Standard Terms and Conditions, “Your Content” shall mean any audio, video\n<br>text, images or other material you choose to display on this Website. By displaying Your Content,\n<br>you grant sineterakia a non-exclusive, worldwide irrevocable, sub licensable license to use,\n<br>reproduce, adapt, publish, translate and distribute it in any and all media.\n<br>Your Content must be your own and must not be invading any third-party’s rights. sineterakia\n<br>reserves the right to remove any of Your Content from this Website at any time without notice.\n<br>5. No warranties\n<br>This Website is provided “as is,” with all faults, and sineterakia express no representations or\n<br>warranties, of any kind related to this Website or the materials contained on this Website. Also,\n<br>nothing contained on this Website shall be interpreted as advising you.\n<br>6. Limitation of liability\n<br>In no event shall sineterakia, nor any of its officers, directors and employees, shall be held liable\n<br>for anything arising out of or in any way connected with your use of this Website whether such\n<br>liability is under contract. sineterakia, including its officers, directors and employees shall not be\n<br>held liable for any indirect, consequential or special liability arising out of or in any way related to\n<br>your use of this Website.\n<br>7. Indemnification\n<br>You hereby indemnify to the fullest extent sineterakia from and against any and/or all liabilities,\n<br>costs, demands, causes of action, damages and expenses arising in any way related to your\n<br>breach of any of the provisions of these Terms.\n<br>8. Severability\n<br>If any provision of these Terms is found to be invalid under any applicable law, such provisions\n<br>shall be deleted without affecting the remaining provisions herein.\n<br>9. Variation of Terms\n<br>sineterakia is permitted to revise these Terms at any time as it sees fit, and by using this Website\n<br>you are expected to review these Terms on a regular basis.\n<br>10. Assignment\n<br>The sineterakia is allowed to assign, transfer, and subcontract its rights and/or obligations under\n<br>these Terms without any notification. However, you are not allowed to assign, transfer, or\n<br>subcontract any of your rights and/or obligations under these Terms.\n<br>11. Entire Agreement\n<br>These Terms constitute the entire agreement between sineterakia and you in relation to your use\n<br>of this Website, and supersede all prior agreements and understandings.\n<br>12. Governing Law &amp; Jurisdiction\n<br>These Terms will be governed by and interpreted in accordance with the laws of the State of\n<br>Greece, and you submit to the non-exclusive jurisdiction of the state and federal courts located in\n<br>Greece for the resolution of any disputes."
         },
         {
           "_inherit": "dropdown-menu",
@@ -544,16 +655,17 @@
             }
           },
           "_name": "dropdown-menu1",
+          "_anchor": "dropdown-menu1-s",
           "_params": {
-            "logo": false,
-            "showBrand": true,
-            "hideButtons": false,
-            "sticky": true,
-            "transparent": false,
             "bgColor": "#ffffff",
             "fontSize": 1,
             "fontName": {},
-            "fontColor": "#000000"
+            "fontColor": "#000000",
+            "transparent": false,
+            "sticky": true,
+            "logo": false,
+            "showBrand": true,
+            "hideButtons": false
           },
           "logo": {
             "image": {
@@ -566,25 +678,35 @@
             }
           },
           "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">ΤΑ ΣΥΝΕΤΑΙΡΑΚΙΑ</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">ΑΡΧΙΚΗ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">ΠΟΙΟΙ ΕΙΜΑΣΤΕ</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">GALLERY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PHOTOS.html\">ΦΩΤΟΓΡΑΦΙΕΣ</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VIDEOS.html\">ΒΙΝΤΕΟ</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-info\" href=\"https://m.me\" target=\"_blank\"><span class=\"mbri-touch-swipe mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 24px;\"></span>&nbsp;FACEBOOK MESSENGER</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-primary\" href=\"tel:+306944715900\"><span class=\"mbri-touch mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 21px;\"></span>&nbsp;6944 715 900</a></li>",
-          "_anchor": "dropdown-menu1-s"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">ΑΡΧΙΚΗ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">ΠΟΙΟΙ ΕΙΜΑΣΤΕ</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">GALLERY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PHOTOS.html\">ΦΩΤΟΓΡΑΦΙΕΣ</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VIDEOS.html\">ΒΙΝΤΕΟ</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-info\" href=\"https://m.me\" target=\"_blank\"><span class=\"mbri-touch-swipe mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 24px;\"></span>&nbsp;FACEBOOK MESSENGER</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-primary\" href=\"tel:+306944715900\"><span class=\"mbri-touch mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 21px;\"></span>&nbsp;6944 715 900</a></li>"
         },
         {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts4",
+          "_styles": {
+            "H1": {
+              "font-size": "12px"
+            }
+          },
+          "_anchor": "contacts4-u",
           "_params": {
             "paddingTop": 2,
             "paddingBottom": 2,
+            "parallax": false,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/1.jpg",
-            "parallax": false,
-            "bgColorRadio": true,
             "bgColor": "#333",
-            "bgVideoRadio": false,
+            "bgColorRadio": true,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
-            "overlayColor": "#151515",
             "overlayOpacity": 0.5,
+            "overlayColor": "#151515",
             "googleMap": {
               "address": "ΔΕΡΒΕΝΑΚΙΩΝ 33,\nΘεσσαλονίκη",
               "placeId": "ChIJ3X9Gxs05qBQR92hDdL25u00",
@@ -596,7 +718,6 @@
           "text1": "<a href=\"page4.html\">TERMS OF SERVICE</a><br><a href=\"page5.html\">PRIVACY POLICY</a><br>",
           "icons": " <a class=\"fa\" data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://el-gr.facebook.com/pg/%CE%A3%CE%A5%CE%9D%CE%95%CE%A4%CE%91%CE%99%CE%A1%CE%91%CE%9A%CE%99%CE%91-183576741733097/about/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrLinkColor\"><i class=\"fa fa-facebook\"></i></a>     ",
           "text2": "<b><br></b><b>Site Design by:&nbsp;<a href=\"https://leanshot.xyz\" target=\"_blank\">leanshot.xyz</a></b><b><br></b><br><b>sineterakia.com 2017, All Rights Reserved<a href=\"https://leanshot.xyz\" target=\"_blank\"><br></a></b><br>",
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-primary btn-ico\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">ΑΠΟΣΤΟΛΗ<i class=\"fa fa-paper-plane-o\"></i></a>",
           "title": "<b>ΤΟ ΜΗΝΥΜΑ ΣΑΣ</b>",
           "form": {
             "action": "sineterakia@mailinator.com",
@@ -605,13 +726,13 @@
             },
             "fields": {
               "name": {
-                "visible": true,
                 "title": "Name",
+                "visible": true,
                 "customTitle": "Το Όνομά σας"
               },
               "email": {
-                "visible": true,
                 "title": "Email",
+                "visible": true,
                 "customTitle": "Το Email σας"
               },
               "message": {
@@ -620,17 +741,7 @@
               }
             }
           },
-          "alias": "unicore/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "contacts4",
-          "_styles": {
-            "H1": {
-              "font-size": "12px"
-            }
-          },
-          "_anchor": "contacts4-u"
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-primary btn-ico\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">ΑΠΟΣΤΟΛΗ<i class=\"fa fa-paper-plane-o\"></i></a>"
         }
       ]
     },
@@ -674,16 +785,17 @@
             }
           },
           "_name": "dropdown-menu1",
+          "_anchor": "dropdown-menu1-p",
           "_params": {
-            "logo": false,
-            "showBrand": true,
-            "hideButtons": false,
-            "sticky": true,
-            "transparent": false,
             "bgColor": "#ffffff",
             "fontSize": 1,
             "fontName": {},
-            "fontColor": "#000000"
+            "fontColor": "#000000",
+            "transparent": false,
+            "sticky": true,
+            "logo": false,
+            "showBrand": true,
+            "hideButtons": false
           },
           "logo": {
             "image": {
@@ -696,52 +808,57 @@
             }
           },
           "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">ΤΑ ΣΥΝΕΤΑΙΡΑΚΙΑ</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">ΑΡΧΙΚΗ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">ΠΟΙΟΙ ΕΙΜΑΣΤΕ</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">GALLERY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PHOTOS.html\">ΦΩΤΟΓΡΑΦΙΕΣ</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VIDEOS.html\">ΒΙΝΤΕΟ</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-info\" href=\"https://m.me\" target=\"_blank\"><span class=\"mbri-touch-swipe mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 24px;\"></span>&nbsp;FACEBOOK MESSENGER</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-primary\" href=\"tel:+306944715900\"><span class=\"mbri-touch mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 21px;\"></span>&nbsp;6944 715 900</a></li>",
-          "_anchor": "dropdown-menu1-p"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">ΑΡΧΙΚΗ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">ΠΟΙΟΙ ΕΙΜΑΣΤΕ</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">GALLERY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PHOTOS.html\">ΦΩΤΟΓΡΑΦΙΕΣ</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VIDEOS.html\">ΒΙΝΤΕΟ</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-info\" href=\"https://m.me\" target=\"_blank\"><span class=\"mbri-touch-swipe mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 24px;\"></span>&nbsp;FACEBOOK MESSENGER</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-primary\" href=\"tel:+306944715900\"><span class=\"mbri-touch mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 21px;\"></span>&nbsp;6944 715 900</a></li>"
         },
         {
-          "_params": {
-            "showTitle": true,
-            "showText": true,
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/12-720x540.jpg",
-            "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": 0.75
-          },
-          "title": "βιντεο",
-          "text": "Δείτε στιγμιότυπα από τις δουλειές μας!",
           "alias": "unicore/components",
           "_tags": [
             "Theme"
           ],
           "_name": "parallax1",
-          "_anchor": "parallax1-y"
-        },
-        {
+          "_anchor": "parallax1-y",
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "showMedia": true,
-            "bgImageRadio": false,
             "paddingTop": 2,
             "paddingBottom": 2,
-            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/12-720x540.jpg",
+            "bgImageRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.75,
+            "overlayColor": "#151515",
+            "showTitle": true,
+            "showText": true
+          },
+          "title": "βιντεο",
+          "text": "Δείτε στιγμιότυπα από τις δουλειές μας!"
+        },
+        {
+          "headerAlign": "left",
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box5",
+          "_anchor": "msg-box5-11",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
             "parallax": false,
-            "bgColorRadio": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
             "bgColor": "#fff",
-            "bgVideoRadio": false,
+            "bgColorRadio": true,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
+            "overlayOpacity": 0.5,
             "overlayColor": "#151515",
-            "overlayOpacity": 0.5
+            "showMedia": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
           },
-          "headerAlign": "left",
           "media": {
             "image": {
               "class": "mbr-figure__img",
@@ -759,36 +876,39 @@
           },
           "title": "BINTEO 1",
           "text": "Επισκεφτείτε το κανάλι μας στο youtube!",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\" href=\"https://www.youtube.com/user/sineterakia/featured\">ΠΑΜΕ ΣΤΟ YOUTUBE</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\" href=\"https://www.youtube.com/user/sineterakia/featured\">ΠΑΜΕ ΣΤΟ YOUTUBE</a>"
+        },
+        {
+          "headerAlign": "left",
           "alias": "unicore/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "msg-box5",
-          "_anchor": "msg-box5-11"
-        },
-        {
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-12",
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "showMedia": true,
             "paddingTop": 2,
             "paddingBottom": 2,
+            "parallax": false,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/1.jpg",
-            "parallax": false,
-            "bgColorRadio": true,
             "bgColor": "#fff",
-            "bgVideoRadio": false,
+            "bgColorRadio": true,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
+            "overlayOpacity": 0.5,
             "overlayColor": "#151515",
-            "overlayOpacity": 0.5
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showMedia": true
           },
-          "headerAlign": "left",
+          "title": "ΒΙΝΤΕΟ 2",
+          "text": "Επισκεφτείτε το κανάλι μας στο youtube!",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\" href=\"https://www.youtube.com/user/sineterakia/featured\">ΠΑΜΕ ΣΤΟ YOUTUBE</a>",
           "media": {
             "image": {
               "class": "mbr-figure__img",
@@ -803,39 +923,36 @@
               "autoplay": false,
               "loop": false
             }
-          },
-          "title": "ΒΙΝΤΕΟ 2",
-          "text": "Επισκεφτείτε το κανάλι μας στο youtube!",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\" href=\"https://www.youtube.com/user/sineterakia/featured\">ΠΑΜΕ ΣΤΟ YOUTUBE</a>",
+          }
+        },
+        {
+          "headerAlign": "left",
           "alias": "unicore/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "msg-box4",
-          "_anchor": "msg-box4-12"
-        },
-        {
+          "_name": "msg-box5",
+          "_anchor": "msg-box5-13",
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "showMedia": true,
-            "bgImageRadio": false,
             "paddingTop": 2,
             "paddingBottom": 2,
-            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
             "parallax": false,
-            "bgColorRadio": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
             "bgColor": "#fff",
-            "bgVideoRadio": false,
+            "bgColorRadio": true,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
+            "overlayOpacity": 0.5,
             "overlayColor": "#151515",
-            "overlayOpacity": 0.5
+            "showMedia": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
           },
-          "headerAlign": "left",
           "media": {
             "image": {
               "class": "mbr-figure__img",
@@ -853,36 +970,39 @@
           },
           "title": "ΒΙΝΤΕΟ 3",
           "text": "Επισκεφτείτε το κανάλι μας στο youtube!",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\" href=\"https://www.youtube.com/user/sineterakia/featured\">ΠΑΜΕ ΣΤΟ YOUTUBE</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\" href=\"https://www.youtube.com/user/sineterakia/featured\">ΠΑΜΕ ΣΤΟ YOUTUBE</a>"
+        },
+        {
+          "headerAlign": "left",
           "alias": "unicore/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "msg-box5",
-          "_anchor": "msg-box5-13"
-        },
-        {
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-14",
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "showMedia": true,
             "paddingTop": 2,
             "paddingBottom": 2,
+            "parallax": false,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/1.jpg",
-            "parallax": false,
-            "bgColorRadio": true,
             "bgColor": "#fff",
-            "bgVideoRadio": false,
+            "bgColorRadio": true,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
+            "overlayOpacity": 0.5,
             "overlayColor": "#151515",
-            "overlayOpacity": 0.5
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showMedia": true
           },
-          "headerAlign": "left",
+          "title": "ΒΙΝΤΕΟ 4",
+          "text": "Επισκεφτείτε το κανάλι μας στο youtube!",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\" href=\"https://www.youtube.com/user/sineterakia/featured\">ΠΑΜΕ ΣΤΟ YOUTUBE</a>",
           "media": {
             "image": {
               "class": "mbr-figure__img",
@@ -897,39 +1017,36 @@
               "autoplay": false,
               "loop": false
             }
-          },
-          "title": "ΒΙΝΤΕΟ 4",
-          "text": "Επισκεφτείτε το κανάλι μας στο youtube!",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\" href=\"https://www.youtube.com/user/sineterakia/featured\">ΠΑΜΕ ΣΤΟ YOUTUBE</a>",
+          }
+        },
+        {
+          "headerAlign": "left",
           "alias": "unicore/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "msg-box4",
-          "_anchor": "msg-box4-14"
-        },
-        {
+          "_name": "msg-box5",
+          "_anchor": "msg-box5-15",
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "showMedia": true,
-            "bgImageRadio": false,
             "paddingTop": 2,
             "paddingBottom": 2,
-            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
             "parallax": false,
-            "bgColorRadio": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
             "bgColor": "#fff",
-            "bgVideoRadio": false,
+            "bgColorRadio": true,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
+            "overlayOpacity": 0.5,
             "overlayColor": "#151515",
-            "overlayOpacity": 0.5
+            "showMedia": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
           },
-          "headerAlign": "left",
           "media": {
             "image": {
               "class": "mbr-figure__img",
@@ -947,36 +1064,39 @@
           },
           "title": "ΒΙΝΤΕΟ 5",
           "text": "Επισκεφτείτε το κανάλι μας στο youtube!",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\" href=\"https://www.youtube.com/user/sineterakia/featured\">ΠΑΜΕ ΣΤΟ YOUTUBE</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\" href=\"https://www.youtube.com/user/sineterakia/featured\">ΠΑΜΕ ΣΤΟ YOUTUBE</a>"
+        },
+        {
+          "headerAlign": "left",
           "alias": "unicore/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "msg-box5",
-          "_anchor": "msg-box5-15"
-        },
-        {
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-16",
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "showMedia": true,
             "paddingTop": 2,
             "paddingBottom": 2,
+            "parallax": false,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/1.jpg",
-            "parallax": false,
-            "bgColorRadio": true,
             "bgColor": "#fff",
-            "bgVideoRadio": false,
+            "bgColorRadio": true,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
+            "overlayOpacity": 0.5,
             "overlayColor": "#151515",
-            "overlayOpacity": 0.5
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showMedia": true
           },
-          "headerAlign": "left",
+          "title": "ΒΙΝΤΕΟ 6",
+          "text": "Επισκεφτείτε το κανάλι μας στο youtube!",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\" href=\"https://www.youtube.com/user/sineterakia/featured\">ΠΑΜΕ ΣΤΟ YOUTUBE</a>",
           "media": {
             "image": {
               "class": "mbr-figure__img",
@@ -991,39 +1111,36 @@
               "autoplay": false,
               "loop": false
             }
-          },
-          "title": "ΒΙΝΤΕΟ 6",
-          "text": "Επισκεφτείτε το κανάλι μας στο youtube!",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\" href=\"https://www.youtube.com/user/sineterakia/featured\">ΠΑΜΕ ΣΤΟ YOUTUBE</a>",
+          }
+        },
+        {
+          "headerAlign": "left",
           "alias": "unicore/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "msg-box4",
-          "_anchor": "msg-box4-16"
-        },
-        {
+          "_name": "msg-box5",
+          "_anchor": "msg-box5-17",
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "showMedia": true,
-            "bgImageRadio": false,
             "paddingTop": 2,
             "paddingBottom": 2,
-            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
             "parallax": false,
-            "bgColorRadio": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
             "bgColor": "#fff",
-            "bgVideoRadio": false,
+            "bgColorRadio": true,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
+            "overlayOpacity": 0.5,
             "overlayColor": "#151515",
-            "overlayOpacity": 0.5
+            "showMedia": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
           },
-          "headerAlign": "left",
           "media": {
             "image": {
               "class": "mbr-figure__img",
@@ -1041,36 +1158,39 @@
           },
           "title": "ΒΙΝΤΕΟ 7",
           "text": "Επισκεφτείτε το κανάλι μας στο youtube!",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\" href=\"https://www.youtube.com/user/sineterakia/featured\">ΠΑΜΕ ΣΤΟ YOUTUBE</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\" href=\"https://www.youtube.com/user/sineterakia/featured\">ΠΑΜΕ ΣΤΟ YOUTUBE</a>"
+        },
+        {
+          "headerAlign": "left",
           "alias": "unicore/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "msg-box5",
-          "_anchor": "msg-box5-17"
-        },
-        {
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-18",
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "showMedia": true,
             "paddingTop": 2,
             "paddingBottom": 2,
+            "parallax": false,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/1.jpg",
-            "parallax": false,
-            "bgColorRadio": true,
             "bgColor": "#fff",
-            "bgVideoRadio": false,
+            "bgColorRadio": true,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
+            "overlayOpacity": 0.5,
             "overlayColor": "#151515",
-            "overlayOpacity": 0.5
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showMedia": true
           },
-          "headerAlign": "left",
+          "title": "ΒΙΝΤΕΟ 8",
+          "text": "Επισκεφτείτε το κανάλι μας στο youtube!",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\" href=\"https://www.youtube.com/user/sineterakia/featured\">παμε στο youtube</a>",
           "media": {
             "image": {
               "class": "mbr-figure__img",
@@ -1085,33 +1205,35 @@
               "autoplay": false,
               "loop": false
             }
-          },
-          "title": "ΒΙΝΤΕΟ 8",
-          "text": "Επισκεφτείτε το κανάλι μας στο youtube!",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\" href=\"https://www.youtube.com/user/sineterakia/featured\">παμε στο youtube</a>",
+          }
+        },
+        {
           "alias": "unicore/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "msg-box4",
-          "_anchor": "msg-box4-18"
-        },
-        {
+          "_name": "contacts4",
+          "_styles": {
+            "H1": {
+              "font-size": "12px"
+            }
+          },
+          "_anchor": "contacts4-r",
           "_params": {
             "paddingTop": 2,
             "paddingBottom": 2,
+            "parallax": false,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/1.jpg",
-            "parallax": false,
-            "bgColorRadio": true,
             "bgColor": "#333",
-            "bgVideoRadio": false,
+            "bgColorRadio": true,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
-            "overlayColor": "#151515",
             "overlayOpacity": 0.5,
+            "overlayColor": "#151515",
             "googleMap": {
               "address": "ΔΕΡΒΕΝΑΚΙΩΝ 33,\nΘεσσαλονίκη",
               "placeId": "ChIJ3X9Gxs05qBQR92hDdL25u00",
@@ -1123,7 +1245,6 @@
           "text1": "<a href=\"page4.html\">TERMS OF SERVICE</a><br><a href=\"page5.html\">PRIVACY POLICY</a><br>",
           "icons": " <a class=\"fa\" data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://el-gr.facebook.com/pg/%CE%A3%CE%A5%CE%9D%CE%95%CE%A4%CE%91%CE%99%CE%A1%CE%91%CE%9A%CE%99%CE%91-183576741733097/about/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrLinkColor\"><i class=\"fa fa-facebook\"></i></a>     ",
           "text2": "<b><br></b><b>Site Design by:&nbsp;<a href=\"https://leanshot.xyz\" target=\"_blank\">leanshot.xyz</a></b><b><br></b><br><b>sineterakia.com 2017, All Rights Reserved<a href=\"https://leanshot.xyz\" target=\"_blank\"><br></a></b><br>",
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-primary btn-ico\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">ΑΠΟΣΤΟΛΗ<i class=\"fa fa-paper-plane-o\"></i></a>",
           "title": "<b>ΤΟ ΜΗΝΥΜΑ ΣΑΣ</b>",
           "form": {
             "action": "sineterakia@mailinator.com",
@@ -1132,13 +1253,13 @@
             },
             "fields": {
               "name": {
-                "visible": true,
                 "title": "Name",
+                "visible": true,
                 "customTitle": "Το Όνομά σας"
               },
               "email": {
-                "visible": true,
                 "title": "Email",
+                "visible": true,
                 "customTitle": "Το Email σας"
               },
               "message": {
@@ -1147,17 +1268,7 @@
               }
             }
           },
-          "alias": "unicore/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "contacts4",
-          "_styles": {
-            "H1": {
-              "font-size": "12px"
-            }
-          },
-          "_anchor": "contacts4-r"
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-primary btn-ico\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">ΑΠΟΣΤΟΛΗ<i class=\"fa fa-paper-plane-o\"></i></a>"
         }
       ]
     },
@@ -1172,25 +1283,25 @@
       },
       "components": [
         {
-          "_params": {
-            "showTitle": true,
-            "showText": true,
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/19-720x540.jpg",
-            "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": 0.75
-          },
-          "title": "ΦΩΤΟΓΡΑΦΙΕΣ",
-          "text": "Δείτε υλικό από πρόσφατες και παλαιότερες δουλειές μας.<br>",
           "alias": "unicore/components",
           "_tags": [
             "Theme"
           ],
           "_name": "parallax1",
-          "_anchor": "parallax1-1d"
+          "_anchor": "parallax1-1d",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImage": "@PROJECT_PATH@/assets/images/19-720x540.jpg",
+            "bgImageRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.75,
+            "overlayColor": "#151515",
+            "showTitle": true,
+            "showText": true
+          },
+          "title": "ΦΩΤΟΓΡΑΦΙΕΣ",
+          "text": "Δείτε υλικό από πρόσφατες και παλαιότερες δουλειές μας.<br>"
         },
         {
           "_inherit": "dropdown-menu",
@@ -1222,16 +1333,17 @@
             }
           },
           "_name": "dropdown-menu1",
+          "_anchor": "dropdown-menu1-m",
           "_params": {
-            "logo": false,
-            "showBrand": true,
-            "hideButtons": false,
-            "sticky": true,
-            "transparent": false,
             "bgColor": "#ffffff",
             "fontSize": 1,
             "fontName": {},
-            "fontColor": "#000000"
+            "fontColor": "#000000",
+            "transparent": false,
+            "sticky": true,
+            "logo": false,
+            "showBrand": true,
+            "hideButtons": false
           },
           "logo": {
             "image": {
@@ -1244,25 +1356,35 @@
             }
           },
           "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">ΤΑ ΣΥΝΕΤΑΙΡΑΚΙΑ</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">ΑΡΧΙΚΗ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">ΠΟΙΟΙ ΕΙΜΑΣΤΕ</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">GALLERY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PHOTOS.html\">ΦΩΤΟΓΡΑΦΙΕΣ</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VIDEOS.html\">ΒΙΝΤΕΟ</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-info\" href=\"https://m.me\" target=\"_blank\"><span class=\"mbri-touch-swipe mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 24px;\"></span>&nbsp;FACEBOOK MESSENGER</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-primary\" href=\"tel:+306944715900\"><span class=\"mbri-touch mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 21px;\"></span>&nbsp;6944 715 900</a></li>",
-          "_anchor": "dropdown-menu1-m"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">ΑΡΧΙΚΗ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">ΠΟΙΟΙ ΕΙΜΑΣΤΕ</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">GALLERY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PHOTOS.html\">ΦΩΤΟΓΡΑΦΙΕΣ</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VIDEOS.html\">ΒΙΝΤΕΟ</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-info\" href=\"https://m.me\" target=\"_blank\"><span class=\"mbri-touch-swipe mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 24px;\"></span>&nbsp;FACEBOOK MESSENGER</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-primary\" href=\"tel:+306944715900\"><span class=\"mbri-touch mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 21px;\"></span>&nbsp;6944 715 900</a></li>"
         },
         {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts4",
+          "_styles": {
+            "H1": {
+              "font-size": "12px"
+            }
+          },
+          "_anchor": "contacts4-o",
           "_params": {
             "paddingTop": 2,
             "paddingBottom": 2,
+            "parallax": false,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/1.jpg",
-            "parallax": false,
-            "bgColorRadio": true,
             "bgColor": "#333",
-            "bgVideoRadio": false,
+            "bgColorRadio": true,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
-            "overlayColor": "#151515",
             "overlayOpacity": 0.5,
+            "overlayColor": "#151515",
             "googleMap": {
               "address": "ΔΕΡΒΕΝΑΚΙΩΝ 33,\nΘεσσαλονίκη",
               "placeId": "ChIJ3X9Gxs05qBQR92hDdL25u00",
@@ -1274,7 +1396,6 @@
           "text1": "<a href=\"page4.html\">TERMS OF SERVICE</a><br><a href=\"page5.html\">PRIVACY POLICY</a><br>",
           "icons": " <a class=\"fa\" data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://el-gr.facebook.com/pg/%CE%A3%CE%A5%CE%9D%CE%95%CE%A4%CE%91%CE%99%CE%A1%CE%91%CE%9A%CE%99%CE%91-183576741733097/about/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrLinkColor\"><i class=\"fa fa-facebook\"></i></a>     ",
           "text2": "<b><br></b><b>Site Design by:&nbsp;<a href=\"https://leanshot.xyz\" target=\"_blank\">leanshot.xyz</a></b><b><br></b><br><b>sineterakia.com 2017, All Rights Reserved<a href=\"https://leanshot.xyz\" target=\"_blank\"><br></a></b><br>",
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-primary btn-ico\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">ΑΠΟΣΤΟΛΗ<i class=\"fa fa-paper-plane-o\"></i></a>",
           "title": "<b>ΤΟ ΜΗΝΥΜΑ ΣΑΣ</b>",
           "form": {
             "action": "sineterakia@mailinator.com",
@@ -1283,13 +1404,13 @@
             },
             "fields": {
               "name": {
-                "visible": true,
                 "title": "Name",
+                "visible": true,
                 "customTitle": "Το Όνομά σας"
               },
               "email": {
-                "visible": true,
                 "title": "Email",
+                "visible": true,
                 "customTitle": "Το Email σας"
               },
               "message": {
@@ -1298,17 +1419,7 @@
               }
             }
           },
-          "alias": "unicore/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "contacts4",
-          "_styles": {
-            "H1": {
-              "font-size": "12px"
-            }
-          },
-          "_anchor": "contacts4-o"
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-primary btn-ico\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">ΑΠΟΣΤΟΛΗ<i class=\"fa fa-paper-plane-o\"></i></a>"
         }
       ]
     },
@@ -1352,16 +1463,17 @@
             }
           },
           "_name": "dropdown-menu1",
+          "_anchor": "dropdown-menu1-j",
           "_params": {
-            "logo": false,
-            "showBrand": true,
-            "hideButtons": false,
-            "sticky": true,
-            "transparent": false,
             "bgColor": "#ffffff",
             "fontSize": 1,
             "fontName": {},
-            "fontColor": "#000000"
+            "fontColor": "#000000",
+            "transparent": false,
+            "sticky": true,
+            "logo": false,
+            "showBrand": true,
+            "hideButtons": false
           },
           "logo": {
             "image": {
@@ -1374,72 +1486,82 @@
             }
           },
           "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">ΤΑ ΣΥΝΕΤΑΙΡΑΚΙΑ</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">ΑΡΧΙΚΗ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">ΠΟΙΟΙ ΕΙΜΑΣΤΕ</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">GALLERY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PHOTOS.html\">ΦΩΤΟΓΡΑΦΙΕΣ</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VIDEOS.html\">ΒΙΝΤΕΟ</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-info\" href=\"https://m.me\" target=\"_blank\"><span class=\"mbri-touch-swipe mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 24px;\"></span>&nbsp;FACEBOOK MESSENGER</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-primary\" href=\"tel:+306944715900\"><span class=\"mbri-touch mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 21px;\"></span>&nbsp;6944 715 900</a></li>",
-          "_anchor": "dropdown-menu1-j"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">ΑΡΧΙΚΗ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">ΠΟΙΟΙ ΕΙΜΑΣΤΕ</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">GALLERY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PHOTOS.html\">ΦΩΤΟΓΡΑΦΙΕΣ</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VIDEOS.html\">ΒΙΝΤΕΟ</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-info\" href=\"https://m.me\" target=\"_blank\"><span class=\"mbri-touch-swipe mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 24px;\"></span>&nbsp;FACEBOOK MESSENGER</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-primary\" href=\"tel:+306944715900\"><span class=\"mbri-touch mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 21px;\"></span>&nbsp;6944 715 900</a></li>"
         },
         {
           "_inherit": "header7",
-          "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/62-2000x1500.jpg",
-            "parallax": false,
-            "bgColorRadio": false,
-            "bgColor": "#8c230e",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": "0.4",
-            "showIcons": false,
-            "iconsColor": "#fff",
-            "icon1": "fa-database",
-            "icon2": "fa-lightbulb-o",
-            "icon3": "fa-money",
-            "icon4": "fa-clock-o",
-            "showTitles": false
-          },
           "alias": "unicore/components",
           "_tags": [
             "Theme"
           ],
-          "title": "<b>Μεταφορές Με Ασφάλεια, Στην Ώρα τους, και Οικονομικά.</b>",
-          "title1": "Multi Layouts",
-          "title2": "Creative Idea",
-          "title3": "Target Buyers",
-          "title4": "Reach Top",
-          "text": "<b>Είμαστε στη διάθεσή σας για ότι μας χρειαστείτε. Τηλεφωνήστε μας ώρες γραφείου, ή επικοινωνήστε μέσω e-mail και Facebook Messenger.</b>",
-          "buttons": "<a data-app-btn=\"true\" href=\"#\" class=\"btn mbr-title-font btn-lg btn-info\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-touch-swipe mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 23px;\"></span>&nbsp;FACEBOOK MESSENGER</a>",
           "_name": "header27",
           "_styles": {
             ".btn": {
               "font-size": "16px"
             }
           },
-          "_anchor": "header27-k"
-        },
-        {
+          "_anchor": "header27-k",
           "_params": {
             "paddingTop": 2,
             "paddingBottom": 2,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "iconsColor": "#fff",
             "parallax": false,
-            "bgColorRadio": true,
-            "bgColor": "#333",
-            "bgVideoRadio": false,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/62-2000x1500.jpg",
+            "bgColor": "#8c230e",
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
+            "overlayOpacity": "0.4",
             "overlayColor": "#151515",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showIcons": false,
+            "icon1": "fa-database",
+            "showTitles": false,
+            "icon2": "fa-lightbulb-o",
+            "icon3": "fa-money",
+            "icon4": "fa-clock-o"
+          },
+          "title": "<b>Μεταφορές Με Ασφάλεια, Στην Ώρα τους, και Οικονομικά.</b>",
+          "text": "<b>Είμαστε στη διάθεσή σας για ότι μας χρειαστείτε. Τηλεφωνήστε μας ώρες γραφείου, ή επικοινωνήστε μέσω e-mail και Facebook Messenger.</b>",
+          "buttons": "<a data-app-btn=\"true\" href=\"#\" class=\"btn mbr-title-font btn-lg btn-info\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-touch-swipe mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 23px;\"></span>&nbsp;FACEBOOK MESSENGER</a>",
+          "title1": "Multi Layouts",
+          "title2": "Creative Idea",
+          "title3": "Target Buyers",
+          "title4": "Reach Top"
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts4",
+          "_styles": {
+            "H1": {
+              "font-size": "12px"
+            }
+          },
+          "_anchor": "contacts4-l",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColor": "#333",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
             "overlayOpacity": 0.5,
+            "overlayColor": "#151515",
             "googleMap": {
               "address": "ΔΕΡΒΕΝΑΚΙΩΝ 33,\nΘεσσαλονίκη",
               "placeId": "ChIJ3X9Gxs05qBQR92hDdL25u00",
@@ -1451,7 +1573,6 @@
           "text1": "<a href=\"page4.html\">TERMS OF SERVICE</a><br><a href=\"page5.html\">PRIVACY POLICY</a><br>",
           "icons": " <a class=\"fa\" data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://el-gr.facebook.com/pg/%CE%A3%CE%A5%CE%9D%CE%95%CE%A4%CE%91%CE%99%CE%A1%CE%91%CE%9A%CE%99%CE%91-183576741733097/about/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrLinkColor\"><i class=\"fa fa-facebook\"></i></a>     ",
           "text2": "<b><br></b><b>Site Design by:&nbsp;<a href=\"https://leanshot.xyz\" target=\"_blank\">leanshot.xyz</a></b><b><br></b><br><b>sineterakia.com 2017, All Rights Reserved<a href=\"https://leanshot.xyz\" target=\"_blank\"><br></a></b><br>",
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-primary btn-ico\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">ΑΠΟΣΤΟΛΗ<i class=\"fa fa-paper-plane-o\"></i></a>",
           "title": "<b>ΤΟ ΜΗΝΥΜΑ ΣΑΣ</b>",
           "form": {
             "action": "sineterakia@mailinator.com",
@@ -1460,13 +1581,13 @@
             },
             "fields": {
               "name": {
-                "visible": true,
                 "title": "Name",
+                "visible": true,
                 "customTitle": "Το Όνομά σας"
               },
               "email": {
-                "visible": true,
                 "title": "Email",
+                "visible": true,
                 "customTitle": "Το Email σας"
               },
               "message": {
@@ -1475,17 +1596,7 @@
               }
             }
           },
-          "alias": "unicore/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "contacts4",
-          "_styles": {
-            "H1": {
-              "font-size": "12px"
-            }
-          },
-          "_anchor": "contacts4-l"
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-primary btn-ico\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">ΑΠΟΣΤΟΛΗ<i class=\"fa fa-paper-plane-o\"></i></a>"
         }
       ]
     }
